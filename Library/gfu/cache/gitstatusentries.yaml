@@ -13,30 +13,186 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-07-28T22:38:00.881+03:00
-  initializedAtString: 2020-07-28T22:38:00.881+03:00
+  lastUpdatedAtString: 2020-07-28T22:45:44.058+03:00
+  initializedAtString: 2020-07-28T22:41:13.047+03:00
   entries:
+  - path: .vs\Piece-Of-Cake\v15\.suo
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\.suo
+    projectPath: .vs\Piece-Of-Cake\v15\.suo
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\Piece-Of-Cake\v15\Server\sqlite3\db.lock
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\Server\sqlite3\db.lock
+    projectPath: .vs\Piece-Of-Cake\v15\Server\sqlite3\db.lock
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Characters\SpecialCupcake.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Characters\SpecialCupcake.cs
+    projectPath: Assets\Scripts\Characters\SpecialCupcake.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\assetDatabase3
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\CurrentMaximizeLayout.dwlt
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\EditorInstance.json
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\metadata\4e\4ec003363a1fc9e448a29525e47f79df
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\4e\4ec003363a1fc9e448a29525e47f79df
+    projectPath: Library\metadata\4e\4ec003363a1fc9e448a29525e47f79df
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\75918c-mainStage.json
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\StateCache\Hierarchy\75918c-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\75918c-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Piece-Of-Cake.sln
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Piece-Of-Cake.sln
+    projectPath: Piece-Of-Cake.sln
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityLockfile
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-354ebe4a82a66464eb6999f87729bb9b
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-354ebe4a82a66464eb6999f87729bb9b
+    projectPath: Temp\UnityTempFile-354ebe4a82a66464eb6999f87729bb9b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7b7b579533b9eef439ea0ec8afdf2d76
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-7b7b579533b9eef439ea0ec8afdf2d76
+    projectPath: Temp\UnityTempFile-7b7b579533b9eef439ea0ec8afdf2d76
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

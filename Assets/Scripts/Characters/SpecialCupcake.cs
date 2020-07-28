@@ -9,9 +9,6 @@ public class SpecialCupcake : MonoBehaviour, ISpecialPower
     Transform origin;
     Transform destination;
     int index;
-
-
-
     bool isDeadByClicking = false;
 
     private void Awake()
