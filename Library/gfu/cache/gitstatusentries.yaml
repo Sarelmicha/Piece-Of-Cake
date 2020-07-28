@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2020-07-28T21:58:57.438+03:00
+  initializedAtString: 2020-07-28T21:58:57.438+03:00
+  entries:
+  - path: Assets\Prefabs\Paths\Circular Path.prefab
+    fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths\Circular Path.prefab
+    projectPath: Assets\Prefabs\Paths\Circular Path.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Characters\SpecialCupcake.cs
+    fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters\SpecialCupcake.cs
+    projectPath: Assets\Scripts\Characters\SpecialCupcake.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Paths\CircularPath.cs
+    fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\CircularPath.cs
+    projectPath: Assets\Scripts\Paths\CircularPath.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Paths\Path.cs
+    fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\Path.cs
+    projectPath: Assets\Scripts\Paths\Path.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Paths\PathSpawner.cs
+    fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\PathSpawner.cs
+    projectPath: Assets\Scripts\Paths\PathSpawner.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3

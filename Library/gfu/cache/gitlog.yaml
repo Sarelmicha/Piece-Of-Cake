@@ -1,0 +1,2923 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-07-27T20:12:53.054+03:00
+  initializedAtString: 2020-07-27T19:14:41.265+03:00
+  log:
+  - commitID: 447909ced9a740e4f3583d9e72e684ed55a272da
+    mergeA: 
+    mergeB: 
+    authorName: Sarel
+    authorEmail: sarelmicha93@gmail.com
+    commitEmail: sarelmicha93@gmail.com
+    commitName: Sarel
+    summary: '*Fix some bugs in path'
+    description: 
+    timeString: 2020-07-27T20:10:52.000+03:00
+    commitTimeString: 2020-07-27T20:10:52.000+03:00
+    changes:
+    - path: Assets\Prefabs\Characters\Cupcakes Spawner.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes
+        Spawner.prefab
+      projectPath: Assets\Prefabs\Characters\Cupcakes Spawner.prefab
+      originalPath: Assets\Prefabs\Cupcakes Spawner.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcakes Spawner.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes
+        Spawner.prefab.meta
+      projectPath: Assets\Prefabs\Characters\Cupcakes Spawner.prefab.meta
+      originalPath: Assets\Prefabs\Cupcakes Spawner.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Paths.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths.meta
+      projectPath: Assets\Prefabs\Paths.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Paths\Circular Path.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths\Circular Path.prefab
+      projectPath: Assets\Prefabs\Paths\Circular Path.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Paths\Circular Path.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths\Circular Path.prefab.meta
+      projectPath: Assets\Prefabs\Paths\Circular Path.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Paths\Path.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths\Path.prefab
+      projectPath: Assets\Prefabs\Paths\Path.prefab
+      originalPath: Assets\Prefabs\Path.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Paths\Path.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths\Path.prefab.meta
+      projectPath: Assets\Prefabs\Paths\Path.prefab.meta
+      originalPath: Assets\Prefabs\Path.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Paths\Paths Spawner.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths\Paths Spawner.prefab
+      projectPath: Assets\Prefabs\Paths\Paths Spawner.prefab
+      originalPath: Assets\Prefabs\Paths Spawner.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Paths\Paths Spawner.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths\Paths Spawner.prefab.meta
+      projectPath: Assets\Prefabs\Paths\Paths Spawner.prefab.meta
+      originalPath: Assets\Prefabs\Paths Spawner.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Characters\SpecialCupcake.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters\SpecialCupcake.cs
+      projectPath: Assets\Scripts\Characters\SpecialCupcake.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Characters\Star.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters\Star.cs
+      projectPath: Assets\Scripts\Characters\Star.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Controllers\CupcakeController.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Controllers\CupcakeController.cs
+      projectPath: Assets\Scripts\Controllers\CupcakeController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\CupcakesSpawner.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CupcakesSpawner.cs
+      projectPath: Assets\Scripts\CupcakesSpawner.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths\CircularPath.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\CircularPath.cs
+      projectPath: Assets\Scripts\Paths\CircularPath.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths\CircularPath.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\CircularPath.cs.meta
+      projectPath: Assets\Scripts\Paths\CircularPath.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths\Path.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\Path.cs
+      projectPath: Assets\Scripts\Paths\Path.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: ef616419f38d324715999539218d260fb4ccc791
+    mergeA: 
+    mergeB: 
+    authorName: Sarel
+    authorEmail: sarelmicha93@gmail.com
+    commitEmail: sarelmicha93@gmail.com
+    commitName: Sarel
+    summary: '*Star has been added with circular spawning'
+    description: 
+    timeString: 2020-07-27T19:14:38.000+03:00
+    commitTimeString: 2020-07-27T19:14:38.000+03:00
+    changes:
+    - path: Assets\Animations\Controllers\Star.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Star.controller
+      projectPath: Assets\Animations\Controllers\Star.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Star.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Star.controller.meta
+      projectPath: Assets\Animations\Controllers\Star.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Create.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create.meta
+      projectPath: Assets\Animations\Create.meta
+      originalPath: Assets\Animations\CreateAnimations.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\Create_bomb.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\Create_bomb.anim
+      projectPath: Assets\Animations\Create\Create_bomb.anim
+      originalPath: Assets\Animations\CreateAnimations\Create_bomb.anim
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\Create_bomb.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\Create_bomb.anim.meta
+      projectPath: Assets\Animations\Create\Create_bomb.anim.meta
+      originalPath: Assets\Animations\CreateAnimations\Create_bomb.anim.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\blue_fruit_animtest_3.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\blue_fruit_animtest_3.anim
+      projectPath: Assets\Animations\Create\blue_fruit_animtest_3.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\blue_fruit_animtest_3.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\blue_fruit_animtest_3.anim.meta
+      projectPath: Assets\Animations\Create\blue_fruit_animtest_3.anim.meta
+      originalPath: Assets\Animations\CreateAnimations\blue_fruit_animtest_3.anim.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\green_3_fruit_animation.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\green_3_fruit_animation.anim
+      projectPath: Assets\Animations\Create\green_3_fruit_animation.anim
+      originalPath: Assets\Animations\CreateAnimations\green_3_fruit_animation.anim
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\green_3_fruit_animation.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\green_3_fruit_animation.anim.meta
+      projectPath: Assets\Animations\Create\green_3_fruit_animation.anim.meta
+      originalPath: Assets\Animations\CreateAnimations\green_3_fruit_animation.anim.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\orange_3_fruit_animation.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\orange_3_fruit_animation.anim
+      projectPath: Assets\Animations\Create\orange_3_fruit_animation.anim
+      originalPath: Assets\Animations\CreateAnimations\orange_3_fruit_animation.anim
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\orange_3_fruit_animation.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\orange_3_fruit_animation.anim.meta
+      projectPath: Assets\Animations\Create\orange_3_fruit_animation.anim.meta
+      originalPath: Assets\Animations\CreateAnimations\orange_3_fruit_animation.anim.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\star_create_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\star_create_animtest.anim
+      projectPath: Assets\Animations\Create\star_create_animtest.anim
+      originalPath: Assets\Animations\CreateAnimations\blue_fruit_animtest_3.anim
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Animations\Create\star_create_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Create\star_create_animtest.anim.meta
+      projectPath: Assets\Animations\Create\star_create_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\star_die_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\star_die_animtest.anim
+      projectPath: Assets\Animations\Die\star_die_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\star_die_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\star_die_animtest.anim.meta
+      projectPath: Assets\Animations\Die\star_die_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\star_idle_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\star_idle_animtest.anim
+      projectPath: Assets\Animations\Idle\star_idle_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\star_idle_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\star_idle_animtest.anim.meta
+      projectPath: Assets\Animations\Idle\star_idle_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.controller
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.controller
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Materials.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Materials.meta
+      projectPath: Assets\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Path Renderer.mat
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Materials\Path Renderer.mat
+      projectPath: Assets\Materials\Path Renderer.mat
+      originalPath: Assets\Scripts\Path Renderer.mat
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Materials\Path Renderer.mat.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Materials\Path Renderer.mat.meta
+      projectPath: Assets\Materials\Path Renderer.mat.meta
+      originalPath: Assets\Scripts\Path Renderer.mat.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Materials\Path.mat
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Materials\Path.mat
+      projectPath: Assets\Materials\Path.mat
+      originalPath: Assets\Scripts\Path.mat
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Materials\Path.mat.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Materials\Path.mat.meta
+      projectPath: Assets\Materials\Path.mat.meta
+      originalPath: Assets\Scripts\Path.mat.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Catchers\Catchers Holder.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Catchers\Catchers Holder.prefab
+      projectPath: Assets\Prefabs\Catchers\Catchers Holder.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcake.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcake.prefab
+      projectPath: Assets\Prefabs\Characters\Cupcake.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcakes\Cupcake Green.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes\Cupcake
+        Green.prefab
+      projectPath: Assets\Prefabs\Characters\Cupcakes\Cupcake Green.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Enemies\Bomb.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Enemies\Bomb.prefab
+      projectPath: Assets\Prefabs\Characters\Enemies\Bomb.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Special.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Special.meta
+      projectPath: Assets\Prefabs\Characters\Special.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Special\Star.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Special\Star.prefab
+      projectPath: Assets\Prefabs\Characters\Special\Star.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Special\Star.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Special\Star.prefab.meta
+      projectPath: Assets\Prefabs\Characters\Special\Star.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Cupcakes Spawner.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Cupcakes Spawner.prefab
+      projectPath: Assets\Prefabs\Cupcakes Spawner.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Characters.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters.meta
+      projectPath: Assets\Scripts\Characters.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Characters\Bomb.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters\Bomb.cs
+      projectPath: Assets\Scripts\Characters\Bomb.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Characters\Bomb.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters\Bomb.cs.meta
+      projectPath: Assets\Scripts\Characters\Bomb.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Characters\SpecialCupcake.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters\SpecialCupcake.cs
+      projectPath: Assets\Scripts\Characters\SpecialCupcake.cs
+      originalPath: Assets\Scripts\SpecialCupcake.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Characters\SpecialCupcake.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters\SpecialCupcake.cs.meta
+      projectPath: Assets\Scripts\Characters\SpecialCupcake.cs.meta
+      originalPath: Assets\Scripts\SpecialCupcake.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Characters\Star.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters\Star.cs
+      projectPath: Assets\Scripts\Characters\Star.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Characters\Star.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Characters\Star.cs.meta
+      projectPath: Assets\Scripts\Characters\Star.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Controllers.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Controllers.meta
+      projectPath: Assets\Scripts\Controllers.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Controllers\CatcherController.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Controllers\CatcherController.cs
+      projectPath: Assets\Scripts\Controllers\CatcherController.cs
+      originalPath: Assets\Scripts\CatcherController.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Controllers\CatcherController.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Controllers\CatcherController.cs.meta
+      projectPath: Assets\Scripts\Controllers\CatcherController.cs.meta
+      originalPath: Assets\Scripts\CatcherController.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Controllers\CupcakeController.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Controllers\CupcakeController.cs
+      projectPath: Assets\Scripts\Controllers\CupcakeController.cs
+      originalPath: Assets\Scripts\CupcakeController.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Controllers\CupcakeController.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Controllers\CupcakeController.cs.meta
+      projectPath: Assets\Scripts\Controllers\CupcakeController.cs.meta
+      originalPath: Assets\Scripts\CupcakeController.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\CupcakesSpawner.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CupcakesSpawner.cs
+      projectPath: Assets\Scripts\CupcakesSpawner.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\ISpecialPower.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\ISpecialPower.cs
+      projectPath: Assets\Scripts\ISpecialPower.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ISpecialPower.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\ISpecialPower.cs.meta
+      projectPath: Assets\Scripts\ISpecialPower.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths.meta
+      projectPath: Assets\Scripts\Paths.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths\HoverPath.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\HoverPath.cs
+      projectPath: Assets\Scripts\Paths\HoverPath.cs
+      originalPath: Assets\Scripts\HoverPath.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths\HoverPath.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\HoverPath.cs.meta
+      projectPath: Assets\Scripts\Paths\HoverPath.cs.meta
+      originalPath: Assets\Scripts\HoverPath.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths\Path.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\Path.cs
+      projectPath: Assets\Scripts\Paths\Path.cs
+      originalPath: Assets\Scripts\Path.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths\Path.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\Path.cs.meta
+      projectPath: Assets\Scripts\Paths\Path.cs.meta
+      originalPath: Assets\Scripts\Path.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths\PathSpawner.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\PathSpawner.cs
+      projectPath: Assets\Scripts\Paths\PathSpawner.cs
+      originalPath: Assets\Scripts\PathSpawner.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Paths\PathSpawner.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Paths\PathSpawner.cs.meta
+      projectPath: Assets\Scripts\Paths\PathSpawner.cs.meta
+      originalPath: Assets\Scripts\PathSpawner.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\SpawnType.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\SpawnType.cs
+      projectPath: Assets\Scripts\SpawnType.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\SpawnType.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\SpawnType.cs.meta
+      projectPath: Assets\Scripts\SpawnType.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 8cf29de1941f801f63669b1595aaa5c72eb3e66d
+    mergeA: 
+    mergeB: 
+    authorName: Sarel
+    authorEmail: sarelmicha93@gmail.com
+    commitEmail: sarelmicha93@gmail.com
+    commitName: Sarel
+    summary: '*Path Hover has been added nicely'
+    description: 
+    timeString: 2020-07-27T14:42:13.000+03:00
+    commitTimeString: 2020-07-27T14:42:13.000+03:00
+    changes:
+    - path: Assets\Prefabs\Path.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Path.prefab
+      projectPath: Assets\Prefabs\Path.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\CupcakeController.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CupcakeController.cs
+      projectPath: Assets\Scripts\CupcakeController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\CupcakesSpawner.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CupcakesSpawner.cs
+      projectPath: Assets\Scripts\CupcakesSpawner.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\HoverPath.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\HoverPath.cs
+      projectPath: Assets\Scripts\HoverPath.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Path Renderer.mat
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Path Renderer.mat
+      projectPath: Assets\Scripts\Path Renderer.mat
+      originalPath: Assets\Scripts\Line Renderer.mat
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Path Renderer.mat.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Path Renderer.mat.meta
+      projectPath: Assets\Scripts\Path Renderer.mat.meta
+      originalPath: Assets\Scripts\Line Renderer.mat.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Path.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Path.cs
+      projectPath: Assets\Scripts\Path.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Path.mat
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Path.mat
+      projectPath: Assets\Scripts\Path.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Path.mat.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Path.mat.meta
+      projectPath: Assets\Scripts\Path.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PathSpawner.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\PathSpawner.cs
+      projectPath: Assets\Scripts\PathSpawner.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\SpecialCupcake.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\SpecialCupcake.cs
+      projectPath: Assets\Scripts\SpecialCupcake.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 7b33b7f0fbeff6d49d7de830414b09f81b177568
+    mergeA: 
+    mergeB: 
+    authorName: Sarel
+    authorEmail: sarelmicha93@gmail.com
+    commitEmail: sarelmicha93@gmail.com
+    commitName: Sarel
+    summary: '*First Commit'
+    description: 
+    timeString: 2020-07-26T19:26:28.000+03:00
+    commitTimeString: 2020-07-26T19:26:28.000+03:00
+    changes:
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Unity_Projects\Piece Of Cake\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: fbe60fe7e1125c6ca4a84f9ba099f8869f0f5876
+    mergeA: 
+    mergeB: 
+    authorName: Sarel
+    authorEmail: sarelmicha93@gmail.com
+    commitEmail: sarelmicha93@gmail.com
+    commitName: Sarel
+    summary: '*First commit'
+    description: 
+    timeString: 2020-07-26T19:26:11.000+03:00
+    commitTimeString: 2020-07-26T19:26:11.000+03:00
+    changes:
+    - path: Packages\manifest.json
+      fullPath: C:\Unity_Projects\Piece Of Cake\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: d8600c5e343300892838b3cac9c97f3cdeb6a307
+    mergeA: 
+    mergeB: 
+    authorName: Sarel
+    authorEmail: sarelmicha93@gmail.com
+    commitEmail: sarelmicha93@gmail.com
+    commitName: Sarel
+    summary: '*First Commit'
+    description: 
+    timeString: 2020-07-26T19:25:42.000+03:00
+    commitTimeString: 2020-07-26T19:25:42.000+03:00
+    changes:
+    - path: Assets\Animations.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations.meta
+      projectPath: Assets\Animations.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers.meta
+      projectPath: Assets\Animations\Controllers.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Bomb.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Bomb.controller
+      projectPath: Assets\Animations\Controllers\Bomb.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Bomb.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Bomb.controller.meta
+      projectPath: Assets\Animations\Controllers\Bomb.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Catcher.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Catcher.controller
+      projectPath: Assets\Animations\Controllers\Catcher.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Catcher.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Catcher.controller.meta
+      projectPath: Assets\Animations\Controllers\Catcher.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Fruit_Blue_1.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Fruit_Blue_1.controller
+      projectPath: Assets\Animations\Controllers\Fruit_Blue_1.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Fruit_Blue_1.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Fruit_Blue_1.controller.meta
+      projectPath: Assets\Animations\Controllers\Fruit_Blue_1.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Fruit_Green_1.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Fruit_Green_1.controller
+      projectPath: Assets\Animations\Controllers\Fruit_Green_1.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Fruit_Green_1.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Fruit_Green_1.controller.meta
+      projectPath: Assets\Animations\Controllers\Fruit_Green_1.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Fruit_Orange_2.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Fruit_Orange_2.controller
+      projectPath: Assets\Animations\Controllers\Fruit_Orange_2.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Fruit_Orange_2.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Fruit_Orange_2.controller.meta
+      projectPath: Assets\Animations\Controllers\Fruit_Orange_2.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Idle.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Idle.anim
+      projectPath: Assets\Animations\Controllers\Idle.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Idle.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Idle.anim.meta
+      projectPath: Assets\Animations\Controllers\Idle.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Right_Click.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Right_Click.anim
+      projectPath: Assets\Animations\Controllers\Right_Click.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Right_Click.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Right_Click.anim.meta
+      projectPath: Assets\Animations\Controllers\Right_Click.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Wrong_Click.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Wrong_Click.anim
+      projectPath: Assets\Animations\Controllers\Wrong_Click.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Controllers\Wrong_Click.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Controllers\Wrong_Click.anim.meta
+      projectPath: Assets\Animations\Controllers\Wrong_Click.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\CreateAnimations.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\CreateAnimations.meta
+      projectPath: Assets\Animations\CreateAnimations.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\CreateAnimations\Create_bomb.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\CreateAnimations\Create_bomb.anim
+      projectPath: Assets\Animations\CreateAnimations\Create_bomb.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\CreateAnimations\Create_bomb.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\CreateAnimations\Create_bomb.anim.meta
+      projectPath: Assets\Animations\CreateAnimations\Create_bomb.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\CreateAnimations\blue_fruit_animtest_3.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\CreateAnimations\blue_fruit_animtest_3.anim
+      projectPath: Assets\Animations\CreateAnimations\blue_fruit_animtest_3.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\CreateAnimations\blue_fruit_animtest_3.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\CreateAnimations\blue_fruit_animtest_3.anim.meta
+      projectPath: Assets\Animations\CreateAnimations\blue_fruit_animtest_3.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\CreateAnimations\green_3_fruit_animation.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\CreateAnimations\green_3_fruit_animation.anim
+      projectPath: Assets\Animations\CreateAnimations\green_3_fruit_animation.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\CreateAnimations\green_3_fruit_animation.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\CreateAnimations\green_3_fruit_animation.anim.meta
+      projectPath: Assets\Animations\CreateAnimations\green_3_fruit_animation.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\CreateAnimations\orange_3_fruit_animation.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\CreateAnimations\orange_3_fruit_animation.anim
+      projectPath: Assets\Animations\CreateAnimations\orange_3_fruit_animation.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\CreateAnimations\orange_3_fruit_animation.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\CreateAnimations\orange_3_fruit_animation.anim.meta
+      projectPath: Assets\Animations\CreateAnimations\orange_3_fruit_animation.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die.meta
+      projectPath: Assets\Animations\Die.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\Die_bomb.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\Die_bomb.anim
+      projectPath: Assets\Animations\Die\Die_bomb.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\Die_bomb.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\Die_bomb.anim.meta
+      projectPath: Assets\Animations\Die\Die_bomb.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\blue_fruit_die.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\blue_fruit_die.anim
+      projectPath: Assets\Animations\Die\blue_fruit_die.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\blue_fruit_die.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\blue_fruit_die.anim.meta
+      projectPath: Assets\Animations\Die\blue_fruit_die.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\green_fruit_die.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\green_fruit_die.anim
+      projectPath: Assets\Animations\Die\green_fruit_die.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\green_fruit_die.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\green_fruit_die.anim.meta
+      projectPath: Assets\Animations\Die\green_fruit_die.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\orange_fruit_die.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\orange_fruit_die.anim
+      projectPath: Assets\Animations\Die\orange_fruit_die.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Die\orange_fruit_die.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Die\orange_fruit_die.anim.meta
+      projectPath: Assets\Animations\Die\orange_fruit_die.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle.meta
+      projectPath: Assets\Animations\Idle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\Idle_bomb.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\Idle_bomb.anim
+      projectPath: Assets\Animations\Idle\Idle_bomb.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\Idle_bomb.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\Idle_bomb.anim.meta
+      projectPath: Assets\Animations\Idle\Idle_bomb.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\blue_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\blue_fruit_animtest.anim
+      projectPath: Assets\Animations\Idle\blue_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\blue_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\blue_fruit_animtest.anim.meta
+      projectPath: Assets\Animations\Idle\blue_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\green_1_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\green_1_fruit_animtest.anim
+      projectPath: Assets\Animations\Idle\green_1_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\green_1_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\green_1_fruit_animtest.anim.meta
+      projectPath: Assets\Animations\Idle\green_1_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\orange_2_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\orange_2_fruit_animtest.anim
+      projectPath: Assets\Animations\Idle\orange_2_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Idle\orange_2_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Animations\Idle\orange_2_fruit_animtest.anim.meta
+      projectPath: Assets\Animations\Idle\orange_2_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Fonts.meta
+      projectPath: Assets\Fonts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Candy Shop Contour Personal Use.ttf
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Fonts\Candy Shop Contour Personal
+        Use.ttf
+      projectPath: Assets\Fonts\Candy Shop Contour Personal Use.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Candy Shop Contour Personal Use.ttf.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Fonts\Candy Shop Contour Personal
+        Use.ttf.meta
+      projectPath: Assets\Fonts\Candy Shop Contour Personal Use.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Candy Shop Personal Use.ttf
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Fonts\Candy Shop Personal Use.ttf
+      projectPath: Assets\Fonts\Candy Shop Personal Use.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Candy Shop Personal Use.ttf.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Fonts\Candy Shop Personal Use.ttf.meta
+      projectPath: Assets\Fonts\Candy Shop Personal Use.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1.meta
+      projectPath: Assets\FruitFace_v1.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation.meta
+      projectPath: Assets\FruitFace_v1\Animation.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\blue_fruit_animtest 1.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\blue_fruit_animtest
+        1.anim
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\blue_fruit_animtest 1.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\blue_fruit_animtest 1.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\blue_fruit_animtest
+        1.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\blue_fruit_animtest 1.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\green_1_fruit_animtest 1.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\green_1_fruit_animtest
+        1.anim
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\green_1_fruit_animtest
+        1.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\green_1_fruit_animtest 1.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\green_1_fruit_animtest
+        1.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\green_1_fruit_animtest
+        1.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\orange_2_fruit_animtest 1.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\orange_2_fruit_animtest
+        1.anim
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\orange_2_fruit_animtest
+        1.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\orange_2_fruit_animtest 1.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\orange_2_fruit_animtest
+        1.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\orange_2_fruit_animtest
+        1.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\red_1_fruit_animtest 1.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\red_1_fruit_animtest
+        1.anim
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\red_1_fruit_animtest
+        1.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\red_1_fruit_animtest 1.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\red_1_fruit_animtest
+        1.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\red_1_fruit_animtest
+        1.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\yellow_1_fruit_animtest 1.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\yellow_1_fruit_animtest
+        1.anim
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\yellow_1_fruit_animtest
+        1.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Clips\yellow_1_fruit_animtest 1.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Clips\yellow_1_fruit_animtest
+        1.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Clips\yellow_1_fruit_animtest
+        1.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-0.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-0.controller
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-0.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-0.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-0.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-0.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-1.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-1.controller
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-1.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-1.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-1.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-1.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-2.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-2.controller
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-2.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-2.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-2.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-2.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-3.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-3.controller
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-3.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-3.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-3.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-3.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-4.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-4.controller
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-4.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-4.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit
+        controller-4.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\Tiles\Controllers\fruit controller-4.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_FX.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_FX.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_FX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_FX\FX_Ray_line.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_FX\FX_Ray_line.controller
+      projectPath: Assets\FruitFace_v1\Animation\UI_FX\FX_Ray_line.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_FX\FX_Ray_line.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_FX\FX_Ray_line.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_FX\FX_Ray_line.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_FX\FX_Splatters_burst_blue.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_FX\FX_Splatters_burst_blue.controller
+      projectPath: Assets\FruitFace_v1\Animation\UI_FX\FX_Splatters_burst_blue.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_FX\FX_Splatters_burst_blue.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_FX\FX_Splatters_burst_blue.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_FX\FX_Splatters_burst_blue.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_FX\UI_FX_ray_line.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_FX\UI_FX_ray_line.anim
+      projectPath: Assets\FruitFace_v1\Animation\UI_FX\UI_FX_ray_line.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_FX\UI_FX_ray_line.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_FX\UI_FX_ray_line.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_FX\UI_FX_ray_line.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_FX\UI_FX_splatter_burst.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_FX\UI_FX_splatter_burst.anim
+      projectPath: Assets\FruitFace_v1\Animation\UI_FX\UI_FX_splatter_burst.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_FX\UI_FX_splatter_burst.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_FX\UI_FX_splatter_burst.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_FX\UI_FX_splatter_burst.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ice.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ice.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ice.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_explode.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_explode.anim
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_explode.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_explode.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_explode.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_explode.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_idle.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_idle.anim
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_idle.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_idle.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_idle.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ice\UI_overlay_ice_idle.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ice\sprite_ice_block.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ice\sprite_ice_block.controller
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ice\sprite_ice_block.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ice\sprite_ice_block.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ice\sprite_ice_block.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ice\sprite_ice_block.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ingame.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ingame.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ingame.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_column.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_column.anim
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_column.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_column.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_column.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_column.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_line.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_line.anim
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_line.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_line.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_line.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ingame\UI_overlay_line.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ingame\overlay_line_effect.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ingame\overlay_line_effect.controller
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ingame\overlay_line_effect.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\UI_overlay_ingame\overlay_line_effect.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\UI_overlay_ingame\overlay_line_effect.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\UI_overlay_ingame\overlay_line_effect.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_1.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_1.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_1.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_1.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.controller
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Blue_2.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_1.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_1.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_1.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_1.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.controller
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Green_2.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1 1.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1
+        1.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1 1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1 1.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1
+        1.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1 1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.controller
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_2.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_2.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_2.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_2.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_2.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Orange_2.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.controller
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.controller
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_Red_2.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.controller
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.controller
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.prefab
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.prefab.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\Fruit_yellow_2.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_2_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_2_fruit_animtest.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_2_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_2_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_2_fruit_animtest.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_2_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_anim_test.controller
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_anim_test.controller
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_anim_test.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_anim_test.controller.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_anim_test.controller.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_anim_test.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_2.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_2.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_2.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_2.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_2.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_2.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_4.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_4.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_4.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_4.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_4.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_4.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_5.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_5.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_5.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_5.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_5.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\blue_fruit_animtest_5.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\green_2_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\green_2_fruit_animtest.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\green_2_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\green_2_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\green_2_fruit_animtest.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\green_2_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\orange_1_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\orange_1_fruit_animtest.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\orange_1_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\orange_1_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\orange_1_fruit_animtest.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\orange_1_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\red_1_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\red_1_fruit_animtest.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\red_1_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\red_1_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\red_1_fruit_animtest.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\red_1_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\red_2_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\red_2_fruit_animtest.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\red_2_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\red_2_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\red_2_fruit_animtest.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\red_2_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\yellow_1_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\yellow_1_fruit_animtest.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\yellow_1_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\yellow_1_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\yellow_1_fruit_animtest.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\yellow_1_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\yellow_2_fruit_animtest.anim
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\yellow_2_fruit_animtest.anim
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\yellow_2_fruit_animtest.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Animation\fruit_animtest\yellow_2_fruit_animtest.anim.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Animation\fruit_animtest\yellow_2_fruit_animtest.anim.meta
+      projectPath: Assets\FruitFace_v1\Animation\fruit_animtest\yellow_2_fruit_animtest.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures.meta
+      projectPath: Assets\FruitFace_v1\Textures.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_blue.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_blue.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_blue.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_blue.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_blue.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_blue.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_green.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_green.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_green.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_green.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_green.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_green.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_red.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_red.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_red.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_red.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_red.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_red.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_violet.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_violet.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_violet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_violet.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_violet.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_violet.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_white.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_white.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_white.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_white.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_white.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_white.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_yellow.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_yellow.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_yellow.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_yellow.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_bg_yellow.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_bg_yellow.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_line_white.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_line_white.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_line_white.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_line_white.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_circle_line_white.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_circle_line_white.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_blue.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_blue.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_blue.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_blue.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_blue.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_blue.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_green.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_green.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_green.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_green.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_green.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_green.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_red.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_red.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_red.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_red.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_red.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_red.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_violet.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_violet.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_violet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_violet.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_violet.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_violet.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_yellow.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_yellow.png
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_yellow.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_yellow.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Selected
+        Tiles\UI_ingame_selection_line_bg_yellow.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Selected Tiles\UI_ingame_selection_line_bg_yellow.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_blue.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_blue.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_blue.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_blue.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_blue.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_blue.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_green.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_green.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_green.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_green.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_green.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_green.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_orange.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_orange.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_orange.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_orange.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_orange.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_orange.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_red.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_red.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_red.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_red.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_red.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_red.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_yellow.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_yellow.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_yellow.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_yellow.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_glow_burst_yellow.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_glow_burst_yellow.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_blue.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_blue.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_blue.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_blue.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_blue.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_blue.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_green.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_green.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_green.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_green.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_green.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_green.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_orange.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_orange.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_orange.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_orange.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_orange.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_orange.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_red.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_red.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_red.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_red.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_red.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_red.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_yellow.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_yellow.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_yellow.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_yellow.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_ray_yellow.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_ray_yellow.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_blue.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_blue.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_blue.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_blue.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_blue.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_blue.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_green.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_green.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_green.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_green.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_green.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_green.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_orange.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_orange.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_orange.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_orange.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_orange.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_orange.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_red.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_red.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_red.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_red.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_red.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_red.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_yellow.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_yellow.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_yellow.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_yellow.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\Sprites
+        FX\sprite_FX_splatter_yellow.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\Sprites FX\sprite_FX_splatter_yellow.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\icon_fruits.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\icon_fruits.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\icon_fruits.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\icon_fruits.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\icon_fruits.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\icon_fruits.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_arrow_atlas.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_arrow_atlas.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_arrow_atlas.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_arrow_atlas.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_arrow_atlas.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_arrow_atlas.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_blue_02.psd
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_blue_02.psd
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_blue_02.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_blue_02.psd.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_blue_02.psd.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_blue_02.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_green_02.psd
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_green_02.psd
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_green_02.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_green_02.psd.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_green_02.psd.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_green_02.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_orange_02.psd
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_orange_02.psd
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_orange_02.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_orange_02.psd.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_orange_02.psd.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_orange_02.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_red_01.psd
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_red_01.psd
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_red_01.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_red_01.psd.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_red_01.psd.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_red_01.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_yelllow_02.psd
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_yelllow_02.psd
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_yelllow_02.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_yelllow_02.psd.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_yelllow_02.psd.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_eye_atlas_yelllow_02.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_fruit_face_atlas_01.psd
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_fruit_face_atlas_01.psd
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_fruit_face_atlas_01.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_fruit_face_atlas_01.psd.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_fruit_face_atlas_01.psd.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_fruit_face_atlas_01.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_ice_atlas.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_ice_atlas.png
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_ice_atlas.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_ice_atlas.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_ice_atlas.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_ice_atlas.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_01.psd
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_01.psd
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_01.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_01.psd.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_01.psd.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_01.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_02.psd
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_02.psd
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_02.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_02.psd.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_02.psd.meta
+      projectPath: Assets\FruitFace_v1\Textures\Tiles\sprite_mouth_atlas_02.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\ingame_grid_bg_01.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\ingame_grid_bg_01.png
+      projectPath: Assets\FruitFace_v1\Textures\ingame_grid_bg_01.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\ingame_grid_bg_01.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\ingame_grid_bg_01.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\ingame_grid_bg_01.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\ingame_grid_bg_01_b.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\ingame_grid_bg_01_b.png
+      projectPath: Assets\FruitFace_v1\Textures\ingame_grid_bg_01_b.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\Textures\ingame_grid_bg_01_b.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\Textures\ingame_grid_bg_01_b.png.meta
+      projectPath: Assets\FruitFace_v1\Textures\ingame_grid_bg_01_b.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\animated_FruitFace.unity
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\animated_FruitFace.unity
+      projectPath: Assets\FruitFace_v1\animated_FruitFace.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\FruitFace_v1\animated_FruitFace.unity.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\FruitFace_v1\animated_FruitFace.unity.meta
+      projectPath: Assets\FruitFace_v1\animated_FruitFace.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Images.meta
+      projectPath: Assets\Images.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\background.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Images\background.png
+      projectPath: Assets\Images\background.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\background.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Images\background.png.meta
+      projectPath: Assets\Images\background.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\png-transparent-circle-yellow-color-circle-label-orange-color-removebg-preview.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Images\png-transparent-circle-yellow-color-circle-label-orange-color-removebg-preview.png
+      projectPath: Assets\Images\png-transparent-circle-yellow-color-circle-label-orange-color-removebg-preview.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\png-transparent-circle-yellow-color-circle-label-orange-color-removebg-preview.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Images\png-transparent-circle-yellow-color-circle-label-orange-color-removebg-preview.png.meta
+      projectPath: Assets\Images\png-transparent-circle-yellow-color-circle-label-orange-color-removebg-preview.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\ring.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Images\ring.png
+      projectPath: Assets\Images\ring.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\ring.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Images\ring.png.meta
+      projectPath: Assets\Images\ring.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Catchers.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Catchers.meta
+      projectPath: Assets\Prefabs\Catchers.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Catchers\Catcher.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Catchers\Catcher.prefab
+      projectPath: Assets\Prefabs\Catchers\Catcher.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Catchers\Catcher.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Catchers\Catcher.prefab.meta
+      projectPath: Assets\Prefabs\Catchers\Catcher.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Catchers\Catchers Holder.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Catchers\Catchers Holder.prefab
+      projectPath: Assets\Prefabs\Catchers\Catchers Holder.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Catchers\Catchers Holder.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Catchers\Catchers Holder.prefab.meta
+      projectPath: Assets\Prefabs\Catchers\Catchers Holder.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters.meta
+      projectPath: Assets\Prefabs\Characters.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcake.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcake.prefab
+      projectPath: Assets\Prefabs\Characters\Cupcake.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcake.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcake.prefab.meta
+      projectPath: Assets\Prefabs\Characters\Cupcake.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcakes.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes.meta
+      projectPath: Assets\Prefabs\Characters\Cupcakes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcakes\Cupcake Blue.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes\Cupcake
+        Blue.prefab
+      projectPath: Assets\Prefabs\Characters\Cupcakes\Cupcake Blue.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcakes\Cupcake Blue.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes\Cupcake
+        Blue.prefab.meta
+      projectPath: Assets\Prefabs\Characters\Cupcakes\Cupcake Blue.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcakes\Cupcake Green.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes\Cupcake
+        Green.prefab
+      projectPath: Assets\Prefabs\Characters\Cupcakes\Cupcake Green.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcakes\Cupcake Green.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes\Cupcake
+        Green.prefab.meta
+      projectPath: Assets\Prefabs\Characters\Cupcakes\Cupcake Green.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcakes\Cupcake Orange.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes\Cupcake
+        Orange.prefab
+      projectPath: Assets\Prefabs\Characters\Cupcakes\Cupcake Orange.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Cupcakes\Cupcake Orange.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Cupcakes\Cupcake
+        Orange.prefab.meta
+      projectPath: Assets\Prefabs\Characters\Cupcakes\Cupcake Orange.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Enemies.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Enemies.meta
+      projectPath: Assets\Prefabs\Characters\Enemies.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Enemies\Bomb.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Enemies\Bomb.prefab
+      projectPath: Assets\Prefabs\Characters\Enemies\Bomb.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Characters\Enemies\Bomb.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Characters\Enemies\Bomb.prefab.meta
+      projectPath: Assets\Prefabs\Characters\Enemies\Bomb.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Cupcakes Spawner.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Cupcakes Spawner.prefab
+      projectPath: Assets\Prefabs\Cupcakes Spawner.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Cupcakes Spawner.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Cupcakes Spawner.prefab.meta
+      projectPath: Assets\Prefabs\Cupcakes Spawner.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Path.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Path.prefab
+      projectPath: Assets\Prefabs\Path.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Path.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Path.prefab.meta
+      projectPath: Assets\Prefabs\Path.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Paths Spawner.prefab
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths Spawner.prefab
+      projectPath: Assets\Prefabs\Paths Spawner.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Paths Spawner.prefab.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Prefabs\Paths Spawner.prefab.meta
+      projectPath: Assets\Prefabs\Paths Spawner.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CatcherController.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CatcherController.cs
+      projectPath: Assets\Scripts\CatcherController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CatcherController.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CatcherController.cs.meta
+      projectPath: Assets\Scripts\CatcherController.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CupcakeController.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CupcakeController.cs
+      projectPath: Assets\Scripts\CupcakeController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CupcakeController.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CupcakeController.cs.meta
+      projectPath: Assets\Scripts\CupcakeController.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CupcakesSpawner.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CupcakesSpawner.cs
+      projectPath: Assets\Scripts\CupcakesSpawner.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CupcakesSpawner.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\CupcakesSpawner.cs.meta
+      projectPath: Assets\Scripts\CupcakesSpawner.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\HoverPath.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\HoverPath.cs
+      projectPath: Assets\Scripts\HoverPath.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\HoverPath.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\HoverPath.cs.meta
+      projectPath: Assets\Scripts\HoverPath.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Line Renderer.mat
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Line Renderer.mat
+      projectPath: Assets\Scripts\Line Renderer.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Line Renderer.mat.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Line Renderer.mat.meta
+      projectPath: Assets\Scripts\Line Renderer.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Path.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Path.cs
+      projectPath: Assets\Scripts\Path.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Path.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\Path.cs.meta
+      projectPath: Assets\Scripts\Path.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PathSpawner.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\PathSpawner.cs
+      projectPath: Assets\Scripts\PathSpawner.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PathSpawner.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\PathSpawner.cs.meta
+      projectPath: Assets\Scripts\PathSpawner.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\SpecialCupcake.cs
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\SpecialCupcake.cs
+      projectPath: Assets\Scripts\SpecialCupcake.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\SpecialCupcake.cs.meta
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\Scripts\SpecialCupcake.cs.meta
+      projectPath: Assets\Scripts\SpecialCupcake.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 1ee9c976233f4311e0f595b457e15c6ec465765a
+    mergeA: 
+    mergeB: 
+    authorName: Sarel
+    authorEmail: sarelmicha93@gmail.com
+    commitEmail: sarelmicha93@gmail.com
+    commitName: Sarel
+    summary: Initial commit
+    description: 
+    timeString: 2020-07-26T19:25:20.000+03:00
+    commitTimeString: 2020-07-26T19:25:20.000+03:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Unity_Projects\Piece Of Cake\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Unity_Projects\Piece Of Cake\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: C:\Unity_Projects\Piece Of Cake\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

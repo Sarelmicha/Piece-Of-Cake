@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7746605688948104221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7746605688948104223}
+  - component: {fileID: 7746605688948104220}
+  m_Layer: 0
+  m_Name: Cupcakes Spawner
+  m_TagString: CupcakeSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7746605688948104223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746605688948104221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7746605688948104220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746605688948104221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1301ed48c0cd08e478fc93da8b762ac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cupcakes:
+  - {fileID: 6648668136855354541, guid: fde97b96f41dc014b8880b4090ec28ea, type: 3}
+  - {fileID: 4834016204833859398, guid: c462cb09046f62045a5a24ae2c815e86, type: 3}
+  - {fileID: 6089574364438341907, guid: a933ebff4d11ce24cad4e84e1ac44152, type: 3}
+  - {fileID: 2931536491111072200, guid: d0557e8c4e3781c4496a5a5f88c4bfe4, type: 3}
+  - {fileID: 4585037045547275084, guid: 92530b942b9ebed49b768ffe3b6dffda, type: 3}
+  catchersHolder: {fileID: 0}
+  minSummonTime: 1
+  maxSummonTime: 2
+  circleSpawnTime: 0.3
