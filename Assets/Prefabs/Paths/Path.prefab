@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8171ce621445f5f448fc6491b0782cd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  catchersHolder: {fileID: 8196933958411741829, guid: 3c4b9c3d06290ed4e95c01dc2d8e1d5b,
+    type: 3}
 --- !u!120 &2073949750537940179
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -83,6 +85,12 @@ LineRenderer:
   m_SortingOrder: 4
   m_Positions:
   - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3

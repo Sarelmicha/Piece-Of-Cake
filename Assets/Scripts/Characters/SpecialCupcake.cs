@@ -46,10 +46,8 @@ public class SpecialCupcake : MonoBehaviour, ISpecialPower
             {
                 index = 0;
             }
-            else
-            {
-                this.origin = catchersHolder.transform.GetChild(index + 1);
-            }  
+
+            this.origin = catchersHolder.transform.GetChild(index + 1);
         } 
     }
 

@@ -16,7 +16,7 @@ public class Path : MonoBehaviour
     private float timeToLive = 7f;
     private int numOfVertices;
     private PathType pathType;
-    private int currentVeticeIndex = 0;
+    private int currentLineRenderVerticeIndex = 0;
     private int nextVerticeIndex;
     private bool destinationIndexHasFound = false;
     private bool isStartPositionSet;
@@ -63,34 +63,34 @@ public class Path : MonoBehaviour
         //TODO - need to do only once
         calculateDistance();
 
-        lineRenderer.SetPosition(currentVeticeIndex, origin);
-        if (currentVeticeIndex + 1 == numOfVertices)
+        lineRenderer.SetPosition(currentLineRenderVerticeIndex, origin);
+        if (currentLineRenderVerticeIndex + 1 == numOfVertices)
         {
             lineRenderer.SetPosition(0 ,destiniation);
         }
         else
         {
-            lineRenderer.SetPosition(currentVeticeIndex + 1, destiniation);
+            lineRenderer.SetPosition(currentLineRenderVerticeIndex + 1, destiniation);
         }
        
 
-        DrawPath(currentVeticeIndex + 1);
+        DrawPath(currentLineRenderVerticeIndex + 1);
         
     }
 
     private void SetCircularDestination()
     {
-        nextVerticeIndex =  FindDestinationVerticeIndex();
+        nextVerticeIndex = GetNextVerticeIndex(origin);
         destiniation = catchersHolder.transform.GetChild(nextVerticeIndex).position;
         destinationIndexHasFound = true;
     }
 
-    public int FindDestinationVerticeIndex()
+    public int GetNextVerticeIndex(Vector3 vertice)
     {
         //Find the index of the origin vetice
         for (int i = 0; i < numOfVertices; i++)
         {
-            if (Vector2.Distance(catchersHolder.transform.GetChild(i).position, origin) < 0.1)
+            if (Vector2.Distance(catchersHolder.transform.GetChild(i).position, vertice) < 0.5)
             {
                 if (i + 1 == numOfVertices)
                 {
@@ -101,6 +101,22 @@ public class Path : MonoBehaviour
                     return i + 1; 
                 }
                
+            }
+        }
+
+        //Vertice not found.
+        return -1;
+    }
+
+    public int GetVerticeIndex(Vector3 vertice)
+    {
+        //Find the index of the origin vetice
+        for (int i = 0; i < numOfVertices; i++)
+        {
+            if (Vector2.Distance(catchersHolder.transform.GetChild(i).position, vertice) < 0.5)
+            {
+                return i;
+ 
             }
         }
 
@@ -140,7 +156,7 @@ public class Path : MonoBehaviour
         {
 
             counter = 0;
-            currentVeticeIndex++;
+            currentLineRenderVerticeIndex++;
             nextVerticeIndex++;
             if (nextVerticeIndex == numOfVertices)
             {
