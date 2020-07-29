@@ -47,6 +47,10 @@ public class HoverPath : MonoBehaviour
             origin = swipeStart;
             nextVericeIndex = path.GetNextVerticeIndex(origin);
             print(nextVericeIndex);
+            if (nextVericeIndex == -1)
+            {
+                return;
+            }
             destination = catchersHolder.transform.GetChild(nextVericeIndex).position;
             lineRenderer.SetPosition(currentLineRenderVerticeIndex++, origin);
         }
@@ -55,7 +59,10 @@ public class HoverPath : MonoBehaviour
         {
             isHover = false;
             swipeEnd = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            CheckFullPath();
+            if (!CheckFullPath())
+            {
+                Destroy(transform.parent.gameObject);
+            }
         }
 
         if (isHover)
@@ -117,7 +124,6 @@ public class HoverPath : MonoBehaviour
         if (IsPathVerticesAlign())
         {
             //Award score
-            Destroy(gameObject);
             Destroy(transform.parent.gameObject);
             return true;
         }

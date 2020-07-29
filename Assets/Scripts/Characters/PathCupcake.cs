@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpecialCupcake : MonoBehaviour, ISpecialPower
+public class PathCupcake : MonoBehaviour, ISpecialPower
 {
-    GameObject pathSpawner;
     [SerializeField] GameObject catchersHolder;
+    [SerializeField] PathType pathType;
+
+    GameObject pathSpawner;
     Transform origin;
     Transform destination;
+    
     int index;
     bool isDeadByClicking = false;
 
@@ -24,7 +27,7 @@ public class SpecialCupcake : MonoBehaviour, ISpecialPower
         {
 
             //TODO - Change path to regular. need to create another cupcake for circular
-            pathSpawner.GetComponent<PathSpawner>().InstanitatePath(origin, destination,PathType.Line);
+            pathSpawner.GetComponent<PathSpawner>().InstanitatePath(origin, destination,pathType);
         }
     }
 

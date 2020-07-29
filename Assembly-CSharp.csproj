@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Characters\Bomb.cs" />
-    <Compile Include="Assets\Scripts\Characters\SpecialCupcake.cs" />
+    <Compile Include="Assets\Scripts\Characters\PathCupcake.cs" />
     <Compile Include="Assets\Scripts\Characters\Star.cs" />
     <Compile Include="Assets\Scripts\Controllers\CatcherController.cs" />
     <Compile Include="Assets\Scripts\Controllers\CupcakeController.cs" />

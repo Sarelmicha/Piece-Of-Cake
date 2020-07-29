@@ -52,12 +52,11 @@ public class Path : MonoBehaviour
             isStartPositionSet = true;
         }
         
-        //print("origin " + origin);
-        //print("dest " + destiniation);
 
         if (!destinationIndexHasFound && pathType == PathType.Circular)
         {
             SetCircularDestination();
+            lineDrawSpeed = 1;
         }
 
         //TODO - need to do only once
