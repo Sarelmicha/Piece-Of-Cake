@@ -6,21 +6,14 @@ using UnityEngine;
 public class PathSpawner : MonoBehaviour
 {
     [SerializeField] Path path;
-    [SerializeField] CircularPath circularPath;
   
-
-    public void InstanitatePath(Transform origin,Transform destiniation)
+    public void InstanitatePath(Transform origin,Transform destiniation,PathType pathType)
     {
      
         Path newPath = Instantiate(path, transform.position, Quaternion.identity);
-        newPath.SetOrigin(origin);
-        newPath.SetDestiniation(destiniation);
-    }
+        newPath.SetPathType(pathType);
+        newPath.SetOrigin(origin.position);
+        newPath.SetDestiniation(destiniation.position);
 
-    public void InstantiateCircularPath(Transform origin, Transform destiniation)
-    {
-        CircularPath newPath = Instantiate(circularPath, transform.position, Quaternion.identity);
-        newPath.SetOrigin(origin);
-        newPath.SetDestiniation(destiniation);
     }
 }

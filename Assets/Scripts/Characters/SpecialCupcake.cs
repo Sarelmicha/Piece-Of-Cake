@@ -23,9 +23,8 @@ public class SpecialCupcake : MonoBehaviour, ISpecialPower
         if (isDeadByClicking)
         {
 
-            //pathSpawner.GetComponent<PathSpawner>().InstanitatePath(origin, destination);
-            pathSpawner.GetComponent<PathSpawner>().InstantiateCircularPath(origin, destination);
-
+            //TODO - Change path to regular. need to create another cupcake for circular
+            pathSpawner.GetComponent<PathSpawner>().InstanitatePath(origin, destination,PathType.Line);
         }
     }
 
@@ -43,7 +42,14 @@ public class SpecialCupcake : MonoBehaviour, ISpecialPower
 
         else
         {
-            this.origin = catchersHolder.transform.GetChild(index + 1);
+            if (index == catchersHolder.transform.childCount)
+            {
+                index = 0;
+            }
+            else
+            {
+                this.origin = catchersHolder.transform.GetChild(index + 1);
+            }  
         } 
     }
 

@@ -212,6 +212,12 @@ LineRenderer:
   m_Positions:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -279,4 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1cd453ec794d4b9ea194d330e8531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineDrawSpeed: 3
+  lineDrawSpeed: 4
+  catchersHolder: {fileID: 8196933958411741829, guid: 3c4b9c3d06290ed4e95c01dc2d8e1d5b,
+    type: 3}
+  pathWidth: 0.45

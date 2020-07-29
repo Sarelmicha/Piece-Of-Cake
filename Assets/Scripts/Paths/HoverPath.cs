@@ -30,7 +30,7 @@ public class HoverPath : MonoBehaviour
 
         this.swipeStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        float distanceFromPath = Vector2.Distance(swipeStart, path.GetOrigin().position);
+        float distanceFromPath = Vector2.Distance(swipeStart, path.GetOrigin());
 
         if (Input.GetMouseButtonDown(0) && !isHover && distanceFromPath < 1f) 
         {
@@ -43,7 +43,7 @@ public class HoverPath : MonoBehaviour
 
             //Set the line render config
             origin = swipeStart;
-            destination = path.GetDestination().position;
+            destination = path.GetDestination();
 
             lineRenderer.SetPosition(0, origin);
             dist = Vector2.Distance(origin, destination);
@@ -56,8 +56,6 @@ public class HoverPath : MonoBehaviour
             swipeEnd = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             CheckFullPath();
         }
-
-        print(isHover);
 
         if (isHover)
         {
@@ -84,8 +82,8 @@ public class HoverPath : MonoBehaviour
             return;
         }
 
-        if (Vector2.Distance(lineRenderer.GetPosition(0), path.GetOrigin().position) < 1 &&
-           Vector2.Distance(lineRenderer.GetPosition(1), path.GetDestination().position) < 1)
+        if (Vector2.Distance(lineRenderer.GetPosition(0), path.GetOrigin()) < 1 &&
+           Vector2.Distance(lineRenderer.GetPosition(1), path.GetDestination()) < 1)
         {
             //Award score
             Destroy(gameObject);

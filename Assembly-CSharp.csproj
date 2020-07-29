@@ -67,10 +67,10 @@
     <Compile Include="Assets\Scripts\Controllers\CupcakeController.cs" />
     <Compile Include="Assets\Scripts\CupcakesSpawner.cs" />
     <Compile Include="Assets\Scripts\ISpecialPower.cs" />
-    <Compile Include="Assets\Scripts\Paths\CircularPath.cs" />
     <Compile Include="Assets\Scripts\Paths\HoverPath.cs" />
     <Compile Include="Assets\Scripts\Paths\Path.cs" />
     <Compile Include="Assets\Scripts\Paths\PathSpawner.cs" />
+    <Compile Include="Assets\Scripts\PathType.cs" />
     <Compile Include="Assets\Scripts\SpawnType.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/UnityProjectsGit/Piece-Of-Cake/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
