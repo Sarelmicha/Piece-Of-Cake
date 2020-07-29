@@ -13,76 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-07-29T17:33:19.490+03:00
-  initializedAtString: 2020-07-29T17:20:35.400+03:00
+  lastUpdatedAtString: 2020-07-29T17:36:32.426+03:00
+  initializedAtString: 2020-07-29T17:35:01.985+03:00
   entries:
-  - path: .vs\Piece-Of-Cake\v15\.suo
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\.suo
-    projectPath: .vs\Piece-Of-Cake\v15\.suo
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-wal
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-wal
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\Characters\Cupcakes\Cupcake Green.prefab
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Prefabs\Characters\Cupcakes\Cupcake
-      Green.prefab
-    projectPath: Assets\Prefabs\Characters\Cupcakes\Cupcake Green.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Characters\PathCupcake.cs
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Characters\PathCupcake.cs
-    projectPath: Assets\Scripts\Characters\PathCupcake.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Characters\PathCupcake.cs.meta
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Characters\PathCupcake.cs.meta
-    projectPath: Assets\Scripts\Characters\PathCupcake.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Characters\SpecialCupcake.cs
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Characters\SpecialCupcake.cs
-    projectPath: Assets\Scripts\Characters\SpecialCupcake.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Scripts\Characters\SpecialCupcake.cs.meta
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Characters\SpecialCupcake.cs.meta
-    projectPath: Assets\Scripts\Characters\SpecialCupcake.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Scripts\Paths\HoverPath.cs
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Paths\HoverPath.cs
-    projectPath: Assets\Scripts\Paths\HoverPath.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Paths\Path.cs
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Paths\Path.cs
-    projectPath: Assets\Scripts\Paths\Path.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\assetDatabase3
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\CurrentMaximizeLayout.dwlt
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\CurrentMaximizeLayout.dwlt
     projectPath: Library\CurrentMaximizeLayout.dwlt
@@ -119,54 +52,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\2c\2cd1cd453ec794d4b9ea194d330e8531
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\2c\2cd1cd453ec794d4b9ea194d330e8531
-    projectPath: Library\metadata\2c\2cd1cd453ec794d4b9ea194d330e8531
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4e\4ec003363a1fc9e448a29525e47f79df
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\4e\4ec003363a1fc9e448a29525e47f79df
-    projectPath: Library\metadata\4e\4ec003363a1fc9e448a29525e47f79df
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4e\4ec003363a1fc9e448a29525e47f79df.info
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\4e\4ec003363a1fc9e448a29525e47f79df.info
-    projectPath: Library\metadata\4e\4ec003363a1fc9e448a29525e47f79df.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\81\8171ce621445f5f448fc6491b0782cd4
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\81\8171ce621445f5f448fc6491b0782cd4
-    projectPath: Library\metadata\81\8171ce621445f5f448fc6491b0782cd4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\c4\c462cb09046f62045a5a24ae2c815e86
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\c4\c462cb09046f62045a5a24ae2c815e86
-    projectPath: Library\metadata\c4\c462cb09046f62045a5a24ae2c815e86
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\c4\c462cb09046f62045a5a24ae2c815e86.info
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\c4\c462cb09046f62045a5a24ae2c815e86.info
-    projectPath: Library\metadata\c4\c462cb09046f62045a5a24ae2c815e86.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -179,18 +64,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\SceneView\276b85-mainStage.json
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\StateCache\SceneView\276b85-mainStage.json
-    projectPath: Library\StateCache\SceneView\276b85-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Temp\__Backupscenes\0.backup
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
@@ -200,54 +73,6 @@ MonoBehaviour:
   - path: Temp\UnityLockfile
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-0751a1cbf1763404da8cb54dd2ac13ec
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-0751a1cbf1763404da8cb54dd2ac13ec
-    projectPath: Temp\UnityTempFile-0751a1cbf1763404da8cb54dd2ac13ec
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-150cf80768337724fb5110492bbc90df
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-150cf80768337724fb5110492bbc90df
-    projectPath: Temp\UnityTempFile-150cf80768337724fb5110492bbc90df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-2834f972f882a554d87eef6662f10f18
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-2834f972f882a554d87eef6662f10f18
-    projectPath: Temp\UnityTempFile-2834f972f882a554d87eef6662f10f18
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-3dafcbff14e147f4fa9f3ff7bf5b0e84
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-3dafcbff14e147f4fa9f3ff7bf5b0e84
-    projectPath: Temp\UnityTempFile-3dafcbff14e147f4fa9f3ff7bf5b0e84
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4f3bd94e501f3c04785890c0c4260c1b
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-4f3bd94e501f3c04785890c0c4260c1b
-    projectPath: Temp\UnityTempFile-4f3bd94e501f3c04785890c0c4260c1b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c88c1aca8a91c1545ae78421ff9d86df
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-c88c1aca8a91c1545ae78421ff9d86df
-    projectPath: Temp\UnityTempFile-c88c1aca8a91c1545ae78421ff9d86df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-dc7aa73e02423724b8cdb902b8674018
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-dc7aa73e02423724b8cdb902b8674018
-    projectPath: Temp\UnityTempFile-dc7aa73e02423724b8cdb902b8674018
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f5408547563ea3a438ff1f368d97ba56
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-f5408547563ea3a438ff1f368d97ba56
-    projectPath: Temp\UnityTempFile-f5408547563ea3a438ff1f368d97ba56
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
