@@ -45,12 +45,16 @@ public class PathCupcake : MonoBehaviour, ISpecialPower
 
         else
         {
-            if (index == catchersHolder.transform.childCount)
+            if (index == catchersHolder.transform.childCount - 1)
             {
-                index = 0;
+                this.origin = catchersHolder.transform.GetChild(0);
+            }
+            else
+            {
+                this.origin = catchersHolder.transform.GetChild(index + 1);
             }
 
-            this.origin = catchersHolder.transform.GetChild(index + 1);
+           
         } 
     }
 

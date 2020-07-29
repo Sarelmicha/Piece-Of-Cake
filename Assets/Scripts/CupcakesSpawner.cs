@@ -55,8 +55,11 @@ public class CupcakesSpawner : MonoBehaviour
     {
          startCircularIndex = UnityEngine.Random.Range(0, catchersHolder.transform.childCount);
          runningCircularIndex = startCircularIndex + 1;
-        print("start Index is " + startCircularIndex);
-        print("runIndex is before " + runningCircularIndex);
+        if (runningCircularIndex == catchersHolder.transform.childCount)
+        {
+            runningCircularIndex = 0;
+        }
+
         while (runningCircularIndex != startCircularIndex)
         {
             yield return new WaitForSeconds(circleSpawnTime);

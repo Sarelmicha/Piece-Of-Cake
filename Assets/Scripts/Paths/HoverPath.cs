@@ -32,7 +32,7 @@ public class HoverPath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+          
         this.swipeStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         if (Input.GetMouseButtonDown(0) && !isHover && Vector2.Distance(swipeStart, path.GetStartPosition()) < 1f) 
@@ -137,31 +137,46 @@ public class HoverPath : MonoBehaviour
 
         if (path.GetPathType() == PathType.Line)
         {
-            return Vector2.Distance(lineRenderer.GetPosition(0), path.GetOrigin()) < 0.5f &&
-           Vector2.Distance(lineRenderer.GetPosition(1), path.GetDestination()) < 0.5f;
+            return IsLinePathAlign();
         }
         else if (path.GetPathType() == PathType.Circular)
         {
-            int startVerticeIndex = path.GetVerticeIndex(lineRenderer.GetPosition(0));
-            
-
-            for (int i = 0; i < numOfVertices; i++)
-            {
-                if (Vector2.Distance(lineRenderer.GetPosition(i), catchersHolder.transform.GetChild(startVerticeIndex++).position) > 0.5f)
-                 {
-                    return false;
-                 }
-
-                if (startVerticeIndex == numOfVertices)
-                {
-                    startVerticeIndex = 0;
-                }
-                
-            }
-
-            return true;
+            return isCircularPathAlign();
         }
 
         return false;
+    }
+
+    private bool isCircularPathAlign()
+    {
+        int startVerticeIndex = path.GetVerticeIndex(lineRenderer.GetPosition(0));
+
+        if (startVerticeIndex == -1)
+        {
+            return false;
+        }
+
+        for (int i = 0; i < numOfVertices; i++)
+        {
+
+            if (Vector2.Distance(lineRenderer.GetPosition(i), catchersHolder.transform.GetChild(startVerticeIndex++).position) > 0.5f)
+            {
+                return false;
+            }
+
+            if (startVerticeIndex == numOfVertices)
+            {
+                startVerticeIndex = 0;
+            }
+
+        }
+
+        return true;
+    }
+
+    private bool IsLinePathAlign()
+    {
+        return Vector2.Distance(lineRenderer.GetPosition(0), path.GetOrigin()) < 0.5f &&
+                   Vector2.Distance(lineRenderer.GetPosition(1), path.GetDestination()) < 0.5f;
     }
 }

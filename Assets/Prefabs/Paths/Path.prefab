@@ -297,3 +297,4 @@ MonoBehaviour:
   catchersHolder: {fileID: 8196933958411741829, guid: 3c4b9c3d06290ed4e95c01dc2d8e1d5b,
     type: 3}
   pathWidth: 0.45
+  timeToLive: 2.5

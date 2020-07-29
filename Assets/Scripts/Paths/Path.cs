@@ -9,11 +9,11 @@ public class Path : MonoBehaviour
     [SerializeField] float lineDrawSpeed = 6f;
     [SerializeField] GameObject catchersHolder;
     [SerializeField] float pathWidth = 0.45f;
+    [SerializeField] float timeToLive = 5f;
 
     private LineRenderer lineRenderer;
     private float counter;
     private float dist;
-    private float timeToLive = 7f;
     private int numOfVertices;
     private PathType pathType;
     private int currentLineRenderVerticeIndex = 0;
