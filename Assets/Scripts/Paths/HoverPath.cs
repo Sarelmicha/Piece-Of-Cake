@@ -31,11 +31,10 @@ public class HoverPath : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-          
+    {  
         this.swipeStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        if (Input.GetMouseButtonDown(0) && !isHover && Vector2.Distance(swipeStart, path.GetStartPosition()) < 1f) 
+        if (Input.GetMouseButtonDown(0) && !isHover && Vector2.Distance(swipeStart, path.GetStartPosition()) < 1f)
         {
 
             //Set the swipe start position
@@ -46,22 +45,26 @@ public class HoverPath : MonoBehaviour
 
             origin = swipeStart;
             nextVericeIndex = path.GetNextVerticeIndex(origin);
-            print(nextVericeIndex);
+
             if (nextVericeIndex == -1)
             {
                 return;
             }
-            destination = catchersHolder.transform.GetChild(nextVericeIndex).position;
+
+            SetPathDestination();
+
             lineRenderer.SetPosition(currentLineRenderVerticeIndex++, origin);
         }
-       
+
         else if (Input.GetMouseButtonUp(0))
         {
             isHover = false;
+            currentLineRenderVerticeIndex = 0;
             swipeEnd = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            if (!CheckFullPath())
+            if (!IsFullPath())
             {
-                Destroy(transform.parent.gameObject);
+                //TODO - CHANGE THIS
+                ResetPath();
             }
         }
 
@@ -72,21 +75,38 @@ public class HoverPath : MonoBehaviour
         
     }
 
+    private void ResetPath()
+    {
+        for (int i = 0; i < numOfVertices; i++)
+        {
+            lineRenderer.SetPosition(i, path.GetStartPosition());
+        }
+    }
+
+    private void SetPathDestination()
+    {
+        switch (path.GetPathType())
+        {
+            case PathType.Circular:
+                destination = catchersHolder.transform.GetChild(nextVericeIndex).position;
+                break;
+            case PathType.Line:
+                destination = path.GetDestination();
+                break;
+        }
+    }
+
     private void DrawHoverPath()
     {
-        /*if (Vector2.Distance(lineRenderer.GetPosition(1), destination) < 0.5)
-        {
-            return;
-        }*/
-
+     
         swipeEnd = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         SetPositions(currentLineRenderVerticeIndex, swipeEnd);
        
-
         //Check if we reached the next vertice
         if (ReachedNextVertice())
         {
-            if (!CheckFullPath())
+        
+            if (!IsFullPath())
             {
                 currentLineRenderVerticeIndex++;
                 nextVericeIndex++;
@@ -101,7 +121,7 @@ public class HoverPath : MonoBehaviour
     }
 
     private bool ReachedNextVertice()
-    {
+    {   
         return Vector2.Distance(destination, swipeEnd) < 0.5f;
     }
 
@@ -113,7 +133,7 @@ public class HoverPath : MonoBehaviour
         }
     }
 
-    private bool CheckFullPath()
+    private bool IsFullPath()
     {
 
         if (path == null)
@@ -129,7 +149,7 @@ public class HoverPath : MonoBehaviour
         }
 
         return false;
-        //lineRenderer.SetPosition(1, origin);
+
     }
 
     private bool IsPathVerticesAlign()
@@ -141,13 +161,13 @@ public class HoverPath : MonoBehaviour
         }
         else if (path.GetPathType() == PathType.Circular)
         {
-            return isCircularPathAlign();
+            return isCircularPathAlign(numOfVertices);
         }
 
         return false;
     }
 
-    private bool isCircularPathAlign()
+    private bool isCircularPathAlign(int numOfVertices)
     {
         int startVerticeIndex = path.GetVerticeIndex(lineRenderer.GetPosition(0));
 
@@ -158,7 +178,6 @@ public class HoverPath : MonoBehaviour
 
         for (int i = 0; i < numOfVertices; i++)
         {
-
             if (Vector2.Distance(lineRenderer.GetPosition(i), catchersHolder.transform.GetChild(startVerticeIndex++).position) > 0.5f)
             {
                 return false;
