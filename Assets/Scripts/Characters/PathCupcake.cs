@@ -58,7 +58,7 @@ public class PathCupcake : MonoBehaviour, ISpecialPower
         } 
     }
 
-    public void InvokeSpecialPower(GameObject catcher)
+    public void InvokeSpecialPower(CatcherController catcher)
     {
 
         index = Random.Range(0, catchersHolder.transform.childCount);
@@ -66,6 +66,6 @@ public class PathCupcake : MonoBehaviour, ISpecialPower
 
         SetOrigin(catcher.gameObject.transform);
         IsDeadByClicking(true);
-        catcher.GetComponent<Animator>().SetTrigger("rightClick");
+        catcher.RightClick();
     }
 }

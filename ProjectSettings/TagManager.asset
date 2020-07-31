@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Path Spawner
   - CupcakeSpawner
+  - Catchers Holder
   layers:
   - Default
   - TransparentFX

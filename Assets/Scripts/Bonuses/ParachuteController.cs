@@ -71,4 +71,6 @@ public class ParachuteController : MonoBehaviour
     {
         transform.Translate(Vector2.down * fadeSpeed * Time.deltaTime);
     }
+
+  
 }

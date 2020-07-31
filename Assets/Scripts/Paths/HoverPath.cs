@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class HoverPath : MonoBehaviour
 {
-    [SerializeField] GameObject catchersHolder;
+    GameObject catchersHolder;
 
     private Vector2 swipeStart;
     private Vector2 swipeEnd;
@@ -22,6 +22,8 @@ public class HoverPath : MonoBehaviour
 
     private void Start()
     {
+        catchersHolder = GameObject.FindWithTag("Catchers Holder");
+
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.startWidth = 0.45f;
         lineRenderer.endWidth = 0.45f;
@@ -105,7 +107,8 @@ public class HoverPath : MonoBehaviour
         //Check if we reached the next vertice
         if (ReachedNextVertice())
         {
-        
+            HoverVertice();
+
             if (!IsFullPath())
             {
                 currentLineRenderVerticeIndex++;
@@ -116,6 +119,18 @@ public class HoverPath : MonoBehaviour
                 }
                 origin = destination;
                 destination = catchersHolder.transform.GetChild(nextVericeIndex).position;
+            }
+        }
+    }
+
+    private void HoverVertice()
+    {
+        if (path.GetPathType() == PathType.Circular)
+        {
+            CatcherController catcher = catchersHolder.transform.GetChild(nextVericeIndex).GetComponent<CatcherController>();
+            if (catcher != null)
+            {
+                catcher.Hover();
             }
         }
     }

@@ -5,11 +5,11 @@ using UnityEngine;
 public class Star : MonoBehaviour, ISpecialPower
 {
 
-    public void InvokeSpecialPower(GameObject catcher)
+    public void InvokeSpecialPower(CatcherController catcher)
     {
 
         //Maybe change color of the button when clicked
-        catcher.GetComponent<Animator>().SetTrigger("rightClick");
+        catcher.RightClick();
 
         CupcakesSpawner cupcakesSpawner = GameObject.FindWithTag("CupcakeSpawner").GetComponent<CupcakesSpawner>();
 

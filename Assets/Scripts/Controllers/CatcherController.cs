@@ -28,24 +28,41 @@ public class CatcherController : MonoBehaviour
                 {
                     CupcakeController cupcake = collision.gameObject.GetComponent<CupcakeController>();
 
-                    if (cupcake != null)
+                    if (cupcake == null)
                     {
-                        cupcake.Die();
+                        return;
                     }
+
+                    cupcake.Die();
 
                     ISpecialPower special = collision.gameObject.GetComponent<ISpecialPower>();
 
                     if (special != null)
                     {
-                        special.InvokeSpecialPower(gameObject);
+                        special.InvokeSpecialPower(gameObject.GetComponent<CatcherController>());
                     }
                     else
                     {
-                        animator.SetTrigger("rightClick");
+                        RightClick();
                     }
                     Destroy(collision.gameObject, dieDelayTime);
                 }
             }
         }      
+    }
+
+    public void Hover()
+    {
+        animator.SetTrigger("hover");
+    }
+
+    public void RightClick()
+    {
+        animator.SetTrigger("rightClick");
+    }
+
+    public void WrongClick()
+    {
+        animator.SetTrigger("wrongClick");
     }
 }

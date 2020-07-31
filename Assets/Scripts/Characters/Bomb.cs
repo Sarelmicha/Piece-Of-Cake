@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour, ISpecialPower
 {
-    public void InvokeSpecialPower(GameObject catcher)
+    public void InvokeSpecialPower(CatcherController catcher)
     {
-    
-        catcher.GetComponent<Animator>().SetTrigger("wrongClick");
+
+        catcher.WrongClick();
     }
 }

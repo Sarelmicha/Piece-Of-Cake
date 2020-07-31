@@ -5,9 +5,8 @@ using UnityEngine;
 
 public class Path : MonoBehaviour
 {
-
+     GameObject catchersHolder;
     [SerializeField] float lineDrawSpeed = 6f;
-    [SerializeField] GameObject catchersHolder;
     [SerializeField] float pathWidth = 0.45f;
     [SerializeField] float timeToLive = 5f;
 
@@ -29,6 +28,8 @@ public class Path : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        catchersHolder = GameObject.FindWithTag("Catchers Holder");
+
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.startWidth = pathWidth;
         lineRenderer.endWidth = pathWidth;
