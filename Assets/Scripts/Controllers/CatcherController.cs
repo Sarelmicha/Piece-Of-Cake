@@ -18,23 +18,20 @@ public class CatcherController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            CupcakeController cupcake = collision.gameObject.GetComponent<CupcakeController>();
-
-            if (cupcake != null)
-            {
-                cupcake.Die();
-            }
-
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
-
-            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
+            
+            RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
             if (hit.collider != null)
             {
                 if (hit.collider.gameObject.name == gameObject.name)
                 {
-                   
+                    CupcakeController cupcake = collision.gameObject.GetComponent<CupcakeController>();
+
+                    if (cupcake != null)
+                    {
+                        cupcake.Die();
+                    }
 
                     ISpecialPower special = collision.gameObject.GetComponent<ISpecialPower>();
 
