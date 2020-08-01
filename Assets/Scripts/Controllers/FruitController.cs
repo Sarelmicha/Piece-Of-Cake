@@ -3,37 +3,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CupcakeController : MonoBehaviour
+public class FruitController : MonoBehaviour
 {
 
     [SerializeField] GameObject catchersHolder;
     [SerializeField] float speed = 0.1f;
     [SerializeField] float maxBoundary = 3f;
 
-    CupcakesSpawner cupcakeSpawner;
+    FruitsSpawner fruitsSpawner;
     Transform target;
     Animator animator;
 
     // Start is called before the first frame update
     void Awake()
     {
-        cupcakeSpawner = GameObject.FindWithTag("CupcakeSpawner").GetComponent<CupcakesSpawner>();
+        fruitsSpawner = GameObject.FindWithTag("CupcakeSpawner").GetComponent<FruitsSpawner>();
         animator = GetComponentInChildren<Animator>();
 
-        switch (cupcakeSpawner.GetSpawnType())
+        switch (fruitsSpawner.GetSpawnType())
         {
             case SpawnType.Regular:
                 SetTarget(UnityEngine.Random.Range(0, catchersHolder.transform.childCount));
                 break;
             case SpawnType.Circular:
-                SetTarget(cupcakeSpawner.GetRunningCircularIndex());
+                SetTarget(fruitsSpawner.GetRunningCircularIndex());
                 break;
         }
     }
 
     void Update()
     {
-        transform.position  = Vector2.MoveTowards(transform.position, target.position * maxBoundary, speed);
+        transform.position  = Vector2.MoveTowards(transform.position, target.position * maxBoundary, speed * Time.deltaTime);
 
         if (IsOutOfBoundaries())
         {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PathCupcake : MonoBehaviour, ISpecialPower
+public class PathFruit : MonoBehaviour, ISpecialPower
 {
     [SerializeField] GameObject catchersHolder;
     [SerializeField] PathType pathType;

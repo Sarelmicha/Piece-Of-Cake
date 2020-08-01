@@ -49,6 +49,8 @@ MonoBehaviour:
   - {fileID: 6089574364438341907, guid: a933ebff4d11ce24cad4e84e1ac44152, type: 3}
   - {fileID: 2931536491111072200, guid: d0557e8c4e3781c4496a5a5f88c4bfe4, type: 3}
   - {fileID: 4585037045547275084, guid: 92530b942b9ebed49b768ffe3b6dffda, type: 3}
+  - {fileID: 6648668136855354541, guid: 89396a785f649124da193958b7210df8, type: 3}
+  - {fileID: 6648668136855354541, guid: 9e57651a4273c2a42a27dfdbdaecf97e, type: 3}
   catchersHolder: {fileID: 0}
   minSummonTime: 1
   maxSummonTime: 2

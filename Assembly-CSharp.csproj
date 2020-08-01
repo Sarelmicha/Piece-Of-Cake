@@ -74,12 +74,12 @@
     <Compile Include="Assets\Scripts\Bonuses\BonusesSpawner.cs" />
     <Compile Include="Assets\Scripts\Bonuses\ParachuteController.cs" />
     <Compile Include="Assets\Scripts\Characters\Bomb.cs" />
-    <Compile Include="Assets\Scripts\Characters\CupcakesSpawner.cs" />
+    <Compile Include="Assets\Scripts\Characters\FruitsSpawner.cs" />
     <Compile Include="Assets\Scripts\Characters\Grenade.cs" />
-    <Compile Include="Assets\Scripts\Characters\PathCupcake.cs" />
+    <Compile Include="Assets\Scripts\Characters\PathFruit.cs" />
     <Compile Include="Assets\Scripts\Characters\Star.cs" />
     <Compile Include="Assets\Scripts\Controllers\CatcherController.cs" />
-    <Compile Include="Assets\Scripts\Controllers\CupcakeController.cs" />
+    <Compile Include="Assets\Scripts\Controllers\FruitController.cs" />
     <Compile Include="Assets\Scripts\ISpecialPower.cs" />
     <Compile Include="Assets\Scripts\Paths\HoverPath.cs" />
     <Compile Include="Assets\Scripts\Paths\Path.cs" />

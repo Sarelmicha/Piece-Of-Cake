@@ -11,11 +11,11 @@ public class Star : MonoBehaviour, ISpecialPower
         //Maybe change color of the button when clicked
         catcher.StarClick();
 
-        CupcakesSpawner cupcakesSpawner = GameObject.FindWithTag("CupcakeSpawner").GetComponent<CupcakesSpawner>();
+        FruitsSpawner fruitsSpawner = GameObject.FindWithTag("CupcakeSpawner").GetComponent<FruitsSpawner>();
 
-        if (cupcakesSpawner != null)
+        if (fruitsSpawner != null)
         {
-            cupcakesSpawner.SetSpawnType(SpawnType.Circular);
+            fruitsSpawner.SetSpawnType(SpawnType.Circular);
         }
     }
 }

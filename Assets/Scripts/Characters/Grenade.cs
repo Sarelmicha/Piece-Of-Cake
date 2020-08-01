@@ -22,7 +22,7 @@ public class Grenade : MonoBehaviour, ISpecialPower
         foreach (var hitCollider in hitColliders)
         {
             //Objects to destory on screen
-            CupcakeController cupcake = hitCollider.GetComponent<CupcakeController>();
+            FruitController cupcake = hitCollider.GetComponent<FruitController>();
             ParachuteController parachute = hitCollider.GetComponent<ParachuteController>();
             Path path = hitCollider.GetComponent<Path>();
 

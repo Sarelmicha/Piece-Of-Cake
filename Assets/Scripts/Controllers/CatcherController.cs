@@ -31,7 +31,7 @@ public class CatcherController : MonoBehaviour
             {
                 if (hit.collider.gameObject.name == gameObject.name)
                 {
-                    CupcakeController cupcake = collision.gameObject.GetComponent<CupcakeController>();
+                    FruitController cupcake = collision.gameObject.GetComponent<FruitController>();
 
                     if (cupcake == null)
                     {

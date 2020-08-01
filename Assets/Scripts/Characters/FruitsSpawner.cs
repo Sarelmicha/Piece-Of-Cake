@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class CupcakesSpawner : MonoBehaviour
+public class FruitsSpawner : MonoBehaviour
 {
 
     [SerializeField] GameObject[] cupcakes;
