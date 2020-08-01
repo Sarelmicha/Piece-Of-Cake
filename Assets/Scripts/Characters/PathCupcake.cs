@@ -67,6 +67,6 @@ public class PathCupcake : MonoBehaviour, ISpecialPower
         //Set destination
         SetDestination(catchersHolder.transform.GetChild(index));
         IsDeadByClicking(true);
-        catcher.RightClick();
+        catcher.RegularClick();
     }
 }

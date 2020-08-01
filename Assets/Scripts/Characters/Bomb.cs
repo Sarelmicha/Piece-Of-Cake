@@ -7,6 +7,6 @@ public class Bomb : MonoBehaviour, ISpecialPower
     public void InvokeSpecialPower(CatcherController catcher)
     {
 
-        catcher.WrongClick();
+        catcher.BombClick();
     }
 }

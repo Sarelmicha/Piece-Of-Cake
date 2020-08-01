@@ -8,6 +8,8 @@ public class CatcherController : MonoBehaviour
     [SerializeField] float dieDelayTime = 0.15f;
     [SerializeField] GameObject regularEffect;
     [SerializeField] GameObject bombEffect;
+    [SerializeField] GameObject starEffect;
+    [SerializeField] GameObject grenadeEffect;
     Animator animator;
 
 
@@ -46,7 +48,7 @@ public class CatcherController : MonoBehaviour
                     }
                     else
                     {
-                        RightClick();
+                        RegularClick();
                     }
                     Destroy(collision.gameObject, dieDelayTime);
                 }
@@ -59,16 +61,28 @@ public class CatcherController : MonoBehaviour
         animator.SetTrigger("hover");
     }
 
-    public void RightClick()
+    public void RegularClick()
     {
         animator.SetTrigger("rightClick");
         TriggerRegularVFX();
     }
 
-    public void WrongClick()
+    public void BombClick()
     {
         animator.SetTrigger("wrongClick");
         TriggerBombVFX();
+    }
+
+    public void GrenadeClick()
+    {
+        animator.SetTrigger("rightClick");
+        TriggerGrenadeVFX();
+    }
+
+    public void StarClick()
+    {
+        animator.SetTrigger("rightClick");
+        TriggerStarVFX();
     }
 
     public void TriggerRegularVFX()
@@ -80,5 +94,16 @@ public class CatcherController : MonoBehaviour
     {
 
         Instantiate(bombEffect, transform.position, transform.rotation);
+    }
+    public void TriggerStarVFX()
+    {
+
+        Instantiate(starEffect, transform.position, transform.rotation);
+    }
+
+    public void TriggerGrenadeVFX()
+    {
+
+        Instantiate(grenadeEffect, transform.position, transform.rotation);
     }
 }

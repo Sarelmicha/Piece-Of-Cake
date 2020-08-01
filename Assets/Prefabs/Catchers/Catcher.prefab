@@ -129,6 +129,9 @@ MonoBehaviour:
   regularEffect: {fileID: 1845240806346120, guid: b395d5d6eb4b4b846acc021ee036b744,
     type: 3}
   bombEffect: {fileID: 100004, guid: 7867af58a6ec48846ae807eb4022fbaa, type: 3}
+  starEffect: {fileID: 100000, guid: 77ec3c4e07a36814fb3169ecef41b50a, type: 3}
+  grenadeEffect: {fileID: 1965343156803978, guid: aa8d6482d70a23445b4b2a928ed1b845,
+    type: 3}
 --- !u!58 &4221826097827146081
 CircleCollider2D:
   m_ObjectHideFlags: 0

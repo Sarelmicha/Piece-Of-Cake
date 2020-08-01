@@ -9,7 +9,7 @@ public class Star : MonoBehaviour, ISpecialPower
     {
 
         //Maybe change color of the button when clicked
-        catcher.RightClick();
+        catcher.StarClick();
 
         CupcakesSpawner cupcakesSpawner = GameObject.FindWithTag("CupcakeSpawner").GetComponent<CupcakesSpawner>();
 
