@@ -8,6 +8,7 @@ public class ParachuteController : MonoBehaviour
 
     [SerializeField] float fadeSpeed = 1f;
     [SerializeField] float delayTime = 0.3f;
+    [SerializeField] GameObject pickupHeartEffet;
 
     Animator animator;
     
@@ -41,6 +42,7 @@ public class ParachuteController : MonoBehaviour
                     if (hit.collider.gameObject.name == gameObject.name)
                     {
                         //Award price
+                        TriggerPickupHeartVFX();
                         animator.SetTrigger("collected");
                         Destroy(gameObject, delayTime);
                     }
@@ -72,5 +74,12 @@ public class ParachuteController : MonoBehaviour
         transform.Translate(Vector2.down * fadeSpeed * Time.deltaTime);
     }
 
-  
+
+    public void TriggerPickupHeartVFX()
+    {
+
+        Instantiate(pickupHeartEffet, transform.position, transform.rotation);
+    }
 }
+
+

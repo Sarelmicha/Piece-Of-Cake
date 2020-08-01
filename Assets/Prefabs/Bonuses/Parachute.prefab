@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 1
   delayTime: 0.3
+  pickupHeartEffet: {fileID: 100004, guid: 3af6f68141914ca43ba39b2403757bd0, type: 3}
 --- !u!61 &857628466
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -293,4 +293,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineDrawSpeed: 3
   pathWidth: 0.45
-  timeToLive: 2.5
+  timeToLive: 2.2

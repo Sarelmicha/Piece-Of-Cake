@@ -6,7 +6,10 @@ using UnityEngine.EventSystems;
 public class CatcherController : MonoBehaviour
 {
     [SerializeField] float dieDelayTime = 0.15f;
+    [SerializeField] GameObject regularEffect;
+    [SerializeField] GameObject bombEffect;
     Animator animator;
+
 
     private void Start()
     {
@@ -59,10 +62,23 @@ public class CatcherController : MonoBehaviour
     public void RightClick()
     {
         animator.SetTrigger("rightClick");
+        TriggerRegularVFX();
     }
 
     public void WrongClick()
     {
         animator.SetTrigger("wrongClick");
+        TriggerBombVFX();
+    }
+
+    public void TriggerRegularVFX()
+    {
+        Instantiate(regularEffect,transform.position,transform.rotation);
+    }
+
+    public void TriggerBombVFX()
+    {
+
+        Instantiate(bombEffect, transform.position, transform.rotation);
     }
 }
