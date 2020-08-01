@@ -36,22 +36,22 @@ public class PathCupcake : MonoBehaviour, ISpecialPower
         this.isDeadByClicking = isDeadByClicking;
     }
 
-    public void SetOrigin(Transform origin)
+    public void SetDestination(Transform destination)
     {
-        if (origin.transform.position != destination.transform.position)
+        if (destination.transform.position != origin.transform.position)
         {
-            this.origin = origin;
+            this.destination = destination;
         }
 
         else
         {
             if (index == catchersHolder.transform.childCount - 1)
             {
-                this.origin = catchersHolder.transform.GetChild(0);
+                this.destination = catchersHolder.transform.GetChild(0);
             }
             else
             {
-                this.origin = catchersHolder.transform.GetChild(index + 1);
+                this.destination = catchersHolder.transform.GetChild(index + 1);
             }
 
            
@@ -60,11 +60,12 @@ public class PathCupcake : MonoBehaviour, ISpecialPower
 
     public void InvokeSpecialPower(CatcherController catcher)
     {
-
+        //Set Origin
+        origin = catcher.gameObject.transform;
+        //Raffle a random index from catchers
         index = Random.Range(0, catchersHolder.transform.childCount);
-        destination = catchersHolder.transform.GetChild(index);
-
-        SetOrigin(catcher.gameObject.transform);
+        //Set destination
+        SetDestination(catchersHolder.transform.GetChild(index));
         IsDeadByClicking(true);
         catcher.RightClick();
     }

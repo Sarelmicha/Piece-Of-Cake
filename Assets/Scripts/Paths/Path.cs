@@ -116,7 +116,6 @@ public class Path : MonoBehaviour
             if (Vector2.Distance(catchersHolder.transform.GetChild(i).position, vertice) < 0.5)
             {
                 return i;
- 
             }
         }
 
@@ -142,7 +141,7 @@ public class Path : MonoBehaviour
             Vector3 pointA = origin;
             Vector3 pointB = destiniation;
 
-            counter += 0.3f / lineDrawSpeed;
+            counter += 1f / lineDrawSpeed;
 
             float x = Mathf.Lerp(0, dist, counter);
 

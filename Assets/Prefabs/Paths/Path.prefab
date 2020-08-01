@@ -44,8 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8171ce621445f5f448fc6491b0782cd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  catchersHolder: {fileID: 8196933958411741829, guid: 3c4b9c3d06290ed4e95c01dc2d8e1d5b,
-    type: 3}
 --- !u!120 &2073949750537940179
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -293,8 +291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1cd453ec794d4b9ea194d330e8531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineDrawSpeed: 4
-  catchersHolder: {fileID: 8196933958411741829, guid: 3c4b9c3d06290ed4e95c01dc2d8e1d5b,
-    type: 3}
+  lineDrawSpeed: 3
   pathWidth: 0.45
   timeToLive: 2.5
