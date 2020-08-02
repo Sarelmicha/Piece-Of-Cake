@@ -61,7 +61,6 @@ public class CatcherController : MonoBehaviour
                     {
                         return;
                     }
-
                     cupcake.Die();
 
                     ISpecialPower special = collision.gameObject.GetComponent<ISpecialPower>();
@@ -79,6 +78,7 @@ public class CatcherController : MonoBehaviour
             }
         }
 
+        //isHandleFruit = false;
         isTriggerd = false;
     }
 

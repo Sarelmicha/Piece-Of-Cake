@@ -10,6 +10,7 @@ TagManager:
   - Game Canvas
   - Bonus Canvas
   - UI Manager
+  - Game Manager
   layers:
   - Default
   - TransparentFX
