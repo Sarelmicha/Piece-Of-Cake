@@ -11,14 +11,18 @@ public class Grenade : MonoBehaviour, ISpecialPower
 
     public void InvokeSpecialPower(CatcherController catcher)
     {
+
         //Make bomb partile Effect
         catcher.GrenadeClick();
 
         //Destory all in a specific radius
-
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, radius);
+        DestoryAllInRadius(hitColliders);
 
-        print("length is " + hitColliders.Length);
+    }
+
+    private void DestoryAllInRadius(Collider2D[] hitColliders)
+    {
         foreach (var hitCollider in hitColliders)
         {
             //Objects to destory on screen
@@ -28,10 +32,8 @@ public class Grenade : MonoBehaviour, ISpecialPower
 
             if (cupcake != null || parachute != null || path != null)
             {
-                Destroy(hitCollider.gameObject,destroyDelayTime);
+                Destroy(hitCollider.gameObject, destroyDelayTime);
             }
         }
-
-
     }
 }

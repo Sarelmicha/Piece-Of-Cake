@@ -19,8 +19,7 @@ public class Bonus : MonoBehaviour, ISpecialPower
     }
 
     public void InvokeSpecialPower(CatcherController catcher)
-    {
-        
+    {       
         catcher.BonusClick();
         uiManager.SwitchCanvasForSeconds(bonusCanvas,bonusTime);
     }

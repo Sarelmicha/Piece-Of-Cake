@@ -121,6 +121,7 @@ eb0a4e1ee8ac469608603aab0780f301 Assembly-CSharp.dll:.Grenade
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 fcfe206c35ab0536e3d8954a0cfd7c5c Assembly-CSharp.dll:.Path
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GameManager
 4feb1c292439f8b89d816d72e734d91c Assembly-CSharp.dll:.BonusesSpawner
 4913a0e630976e60f0c6e77596bfc74b Assembly-CSharp.dll:.PathFruit
 4aac268d7e435f7a65add91aaba819a4 Assembly-CSharp.dll:.CFX_Demo_RandomDir
@@ -130,7 +131,7 @@ f466c31d709bf5bf8e56ecfc7d5eec6b Assembly-CSharp.dll:.Bonus
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 5d27c6e85ec89cfab8577e9e26695e88 Assembly-CSharp.dll:.CFX_AutoDestructShuriken
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
-ea4c768175aeae95f60a5e97aa99f544 Assembly-CSharp.dll:.FruitsSpawner
+f1731b06cdfb0f54eea43b5ce3825db3 Assembly-CSharp.dll:.FruitsSpawner
 660deb0ce569359218f0ba85b7ce0e3a Assembly-CSharp.dll:.CFX_LightIntensityFade
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UIManager
@@ -182,4 +183,3 @@ df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 dd2770aba63b731fb2724d5112334d61 Assembly-CSharp.dll:.CatcherController
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Star
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GameManager

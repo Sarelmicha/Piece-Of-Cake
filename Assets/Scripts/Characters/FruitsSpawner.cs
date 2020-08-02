@@ -11,11 +11,18 @@ public class FruitsSpawner : MonoBehaviour
     [SerializeField] float minSummonTime = 0.5f;
     [SerializeField] float maxSummonTime = 1f;
     [SerializeField] float circleSpawnTime = 0.5f;
+    [SerializeField] GameManager gameManager;
 
     int startCircularIndex;
     int runningCircularIndex;
+    int cupcakeIndex;
 
     private SpawnType spawnType = SpawnType.Regular;
+
+    private void Awake()
+    {
+        gameManager = GameObject.FindWithTag("Game Manager").GetComponent<GameManager>();
+    }
 
     // Update is called once per frame
     void Start()
@@ -46,8 +53,9 @@ public class FruitsSpawner : MonoBehaviour
         {
             yield return new WaitForSeconds(UnityEngine.Random.Range(minSummonTime, maxSummonTime));
 
-            int randomIndex = UnityEngine.Random.Range(0, cupcakes.Length);
-            Instantiate(cupcakes[randomIndex], transform.position, Quaternion.identity);
+            SetCupcakeIndex();
+
+            Instantiate(cupcakes[cupcakeIndex], transform.position, Quaternion.identity);
         }
     }
 
@@ -64,12 +72,9 @@ public class FruitsSpawner : MonoBehaviour
         {
             yield return new WaitForSeconds(circleSpawnTime);
 
-            int cupcakeIndex = UnityEngine.Random.Range(0, cupcakes.Length);
+            SetCupcakeIndex();
             Instantiate(cupcakes[cupcakeIndex], transform.position, Quaternion.identity);
             runningCircularIndex++;
-
-            print("start Index is " + startCircularIndex);
-            print("runIndex is " + runningCircularIndex);
       
             if (runningCircularIndex == catchersHolder.transform.childCount)
             {
@@ -81,6 +86,21 @@ public class FruitsSpawner : MonoBehaviour
         {
             spawnType = SpawnType.Regular;
             yield return RegularSpawn();
+        }
+    }
+
+    private void SetCupcakeIndex()
+    {
+
+        switch (gameManager.GetGameMode())
+        {
+            case GameMode.Regular:
+                cupcakeIndex = UnityEngine.Random.Range(0, cupcakes.Length);
+                break;
+            case GameMode.DoubleTwo:
+                //Raffle a random index without the bonus fruit
+                cupcakeIndex = UnityEngine.Random.Range(0, cupcakes.Length - 1);
+                break;
         }
     }
 
