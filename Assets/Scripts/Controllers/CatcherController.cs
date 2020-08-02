@@ -6,10 +6,13 @@ using UnityEngine.EventSystems;
 public class CatcherController : MonoBehaviour
 {
     [SerializeField] float dieDelayTime = 0.15f;
-    [SerializeField] GameObject regularEffect;
+    [SerializeField] GameObject rightClick;
     [SerializeField] GameObject bombEffect;
     [SerializeField] GameObject starEffect;
     [SerializeField] GameObject grenadeEffect;
+
+    bool isTriggerd = false;
+
     Animator animator;
 
 
@@ -18,8 +21,28 @@ public class CatcherController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
+
+            if (hit.collider != null)
+            {
+                if (hit.collider.gameObject.name == gameObject.name && !isTriggerd)
+                {
+                    RegularClick();
+                }
+            }
+        }
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
+
+        isTriggerd = true;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -48,12 +71,14 @@ public class CatcherController : MonoBehaviour
                     }
                     else
                     {
-                        RegularClick();
+                        RightClick();
                     }
                     Destroy(collision.gameObject, dieDelayTime);
                 }
             }
-        }      
+        }
+
+        isTriggerd = false;
     }
 
     public void Hover()
@@ -61,11 +86,17 @@ public class CatcherController : MonoBehaviour
         animator.SetTrigger("hover");
     }
 
-    public void RegularClick()
+    public void RightClick()
     {
         animator.SetTrigger("rightClick");
-        TriggerRegularVFX();
+        TriggerRightClickVFX();
     }
+
+    public void RegularClick()
+    {
+        animator.SetTrigger("click");
+    }
+
 
     public void BombClick()
     {
@@ -85,9 +116,9 @@ public class CatcherController : MonoBehaviour
         TriggerStarVFX();
     }
 
-    public void TriggerRegularVFX()
+    public void TriggerRightClickVFX()
     {
-        Instantiate(regularEffect,transform.position,transform.rotation);
+        Instantiate(rightClick,transform.position,transform.rotation);
     }
 
     public void TriggerBombVFX()

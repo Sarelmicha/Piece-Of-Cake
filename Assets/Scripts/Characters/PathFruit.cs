@@ -67,6 +67,6 @@ public class PathFruit : MonoBehaviour, ISpecialPower
         //Set destination
         SetDestination(catchersHolder.transform.GetChild(index));
         IsDeadByClicking(true);
-        catcher.RegularClick();
+        catcher.RightClick();
     }
 }
