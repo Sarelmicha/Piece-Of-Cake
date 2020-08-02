@@ -72,15 +72,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21220900, guid: 28dd42fca7a476d478e583d0b8d8e192, type: 3}
       propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 21220902, guid: 28dd42fca7a476d478e583d0b8d8e192, type: 3}
+      propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 21220904, guid: 28dd42fca7a476d478e583d0b8d8e192, type: 3}
       propertyPath: m_SortingOrder
-      value: 23
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 21220906, guid: 28dd42fca7a476d478e583d0b8d8e192, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28dd42fca7a476d478e583d0b8d8e192, type: 3}
@@ -149,7 +153,7 @@ PrefabInstance:
     - target: {fileID: 2554500515853592411, guid: 64178403758f8b744b455cf4b48648fe,
         type: 3}
       propertyPath: m_Name
-      value: Cupcake Green
+      value: Watermelon
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114079242439250436, guid: 64178403758f8b744b455cf4b48648fe, type: 3}

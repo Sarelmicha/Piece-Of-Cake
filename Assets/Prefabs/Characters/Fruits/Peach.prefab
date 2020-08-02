@@ -57,13 +57,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21235718, guid: 48e2b867fa77df2489266abb9c52c1db, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 21235720, guid: 48e2b867fa77df2489266abb9c52c1db, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 21235722, guid: 48e2b867fa77df2489266abb9c52c1db, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 21235724, guid: 48e2b867fa77df2489266abb9c52c1db, type: 3}
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
@@ -134,7 +138,7 @@ PrefabInstance:
     - target: {fileID: 2554500515853592411, guid: 64178403758f8b744b455cf4b48648fe,
         type: 3}
       propertyPath: m_Name
-      value: Cupcake Blue
+      value: Peach
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 212100001586098630, guid: 64178403758f8b744b455cf4b48648fe, type: 3}

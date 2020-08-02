@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Bonuses\BonusesSpawner.cs" />
     <Compile Include="Assets\Scripts\Bonuses\ParachuteController.cs" />
     <Compile Include="Assets\Scripts\Characters\Bomb.cs" />
+    <Compile Include="Assets\Scripts\Characters\Bonus.cs" />
     <Compile Include="Assets\Scripts\Characters\FruitsSpawner.cs" />
     <Compile Include="Assets\Scripts\Characters\Grenade.cs" />
     <Compile Include="Assets\Scripts\Characters\PathFruit.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\Scripts\Paths\PathSpawner.cs" />
     <Compile Include="Assets\Scripts\Paths\PathType.cs" />
     <Compile Include="Assets\Scripts\SpawnType.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />

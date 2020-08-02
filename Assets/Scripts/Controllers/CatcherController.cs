@@ -10,6 +10,7 @@ public class CatcherController : MonoBehaviour
     [SerializeField] GameObject bombEffect;
     [SerializeField] GameObject starEffect;
     [SerializeField] GameObject grenadeEffect;
+    [SerializeField] GameObject bonusEffect;
 
     bool isTriggerd = false;
 
@@ -116,6 +117,13 @@ public class CatcherController : MonoBehaviour
         TriggerStarVFX();
     }
 
+    public void BonusClick()
+    {
+        animator.SetTrigger("rightClick");
+        TriggerBonusVFX();
+
+    }
+
     public void TriggerRightClickVFX()
     {
         Instantiate(rightClick,transform.position,transform.rotation);
@@ -137,4 +145,12 @@ public class CatcherController : MonoBehaviour
 
         Instantiate(grenadeEffect, transform.position, transform.rotation);
     }
+
+
+    public void TriggerBonusVFX()
+    {
+        Instantiate(bonusEffect, transform.position, transform.rotation);
+    }
+
+
 }

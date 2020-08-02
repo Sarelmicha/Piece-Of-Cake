@@ -7,6 +7,9 @@ TagManager:
   - Path Spawner
   - CupcakeSpawner
   - Catchers Holder
+  - Game Canvas
+  - Bonus Canvas
+  - UI Manager
   layers:
   - Default
   - TransparentFX
