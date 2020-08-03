@@ -30,4 +30,5 @@ public class UIManager : MonoBehaviour
         gameManager.SetGameMode(GameMode.Regular);
 
     }
+
 }

@@ -11,6 +11,7 @@ TagManager:
   - Bonus Canvas
   - UI Manager
   - Game Manager
+  - Rotation Manager
   layers:
   - Default
   - TransparentFX

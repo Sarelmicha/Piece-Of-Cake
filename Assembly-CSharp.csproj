@@ -78,10 +78,12 @@
     <Compile Include="Assets\Scripts\Characters\FruitsSpawner.cs" />
     <Compile Include="Assets\Scripts\Characters\Grenade.cs" />
     <Compile Include="Assets\Scripts\Characters\PathFruit.cs" />
+    <Compile Include="Assets\Scripts\Characters\Rotation.cs" />
     <Compile Include="Assets\Scripts\Characters\Star.cs" />
     <Compile Include="Assets\Scripts\Controllers\CatcherController.cs" />
     <Compile Include="Assets\Scripts\Controllers\FruitController.cs" />
     <Compile Include="Assets\Scripts\Core\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Core\RotationManager.cs" />
     <Compile Include="Assets\Scripts\Core\ShakeBehavior.cs" />
     <Compile Include="Assets\Scripts\Enums\GameMode.cs" />
     <Compile Include="Assets\Scripts\Enums\PathType.cs" />
@@ -90,6 +92,7 @@
     <Compile Include="Assets\Scripts\Paths\HoverPath.cs" />
     <Compile Include="Assets\Scripts\Paths\Path.cs" />
     <Compile Include="Assets\Scripts\Paths\PathSpawner.cs" />
+    <Compile Include="Assets\Scripts\UI\Ring.cs" />
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
