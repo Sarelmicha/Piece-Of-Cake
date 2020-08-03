@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PathFruit : MonoBehaviour, ISpecialPower
 {
-    [SerializeField] GameObject catchersHolder;
+    GameObject catchersHolder;
     [SerializeField] PathType pathType;
 
     GameObject pathSpawner;
@@ -17,6 +17,7 @@ public class PathFruit : MonoBehaviour, ISpecialPower
     private void Awake()
     {
         pathSpawner = GameObject.FindWithTag("Path Spawner");
+        catchersHolder = GameObject.FindWithTag("Catchers Holder");
     }
 
 
@@ -25,7 +26,6 @@ public class PathFruit : MonoBehaviour, ISpecialPower
      
         if (isDeadByClicking)
         {
-
             //TODO - Change path to regular. need to create another cupcake for circular
             pathSpawner.GetComponent<PathSpawner>().InstanitatePath(origin, destination,pathType);
         }

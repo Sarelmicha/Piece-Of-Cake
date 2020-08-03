@@ -5,11 +5,10 @@ using UnityEngine;
 
 public class Path : MonoBehaviour
 {
-     GameObject catchersHolder;
+    GameObject catchersHolder;
     [SerializeField] float lineDrawSpeed = 6f;
     [SerializeField] float pathWidth = 0.45f;
     [SerializeField] float timeToLive = 5f;
-    [SerializeField] RotationManager rotationManager;
 
     private LineRenderer lineRenderer;
     private float counter;
@@ -21,16 +20,19 @@ public class Path : MonoBehaviour
     private bool destinationIndexHasFound = false;
     private bool isStartPositionSet;
     private bool isFinishedFullPath = false;
+    private RotationManager rotationManager;
 
     Transform origin;
-    Transform destiniation;
+    Transform destination;
     Transform startPosition;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        rotationManager = GameObject.FindWithTag("Rotation Manager").GetComponent<RotationManager>();
         catchersHolder = GameObject.FindWithTag("Catchers Holder");
+
 
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.startWidth = pathWidth;
@@ -44,10 +46,14 @@ public class Path : MonoBehaviour
     void Update()
     {
 
-        if (origin == null || destiniation == null)
+        if (origin == null || destination == null)
         {
             return;
         }
+
+     
+        print("dest  from up is " + destination.position);
+
 
         if (!isStartPositionSet)
         {
@@ -67,14 +73,16 @@ public class Path : MonoBehaviour
         //Set the origin as first vertic
         lineRenderer.SetPosition(currentLineRenderVerticeIndex, origin.position);
 
-        DrawPath(currentLineRenderVerticeIndex + 1);
+       //SetPositions(currentLineRenderVerticeIndex + 1, destination.position);
+
+       DrawPath(currentLineRenderVerticeIndex + 1);
         
     }
 
     private void SetCircularDestination()
     {
         nextVerticeIndex = GetNextVerticeIndex(origin.position);
-        destiniation = catchersHolder.transform.GetChild(nextVerticeIndex);
+        destination = catchersHolder.transform.GetChild(nextVerticeIndex);
         destinationIndexHasFound = true;
     }
 
@@ -93,8 +101,7 @@ public class Path : MonoBehaviour
         else
         {
             return index + 1; 
-        }
-           
+        }    
     }
 
     public int GetVerticeIndex(Vector3 vertice)
@@ -107,14 +114,13 @@ public class Path : MonoBehaviour
                 return i;
             }
         }
-
         //Vertice not found.
         return -1;
     }
 
     private void calculateDistance()
     {
-         dist = Vector2.Distance(origin.position, destiniation.position);
+         dist = Vector2.Distance(origin.position, destination.position);
     }
 
     public void DrawPath(int position)
@@ -125,10 +131,24 @@ public class Path : MonoBehaviour
             return;
         }
 
+
+        if (rotationManager.IsRotate())
+        {
+            DrawPathDuringRotation(position);
+            return;
+        }
+
+        DrawPathDuringStatic(position);
+    }
+
+    private void DrawPathDuringStatic(int position)
+    {
         if (counter < dist)
         {
+
             Vector3 pointA = origin.position;
-            Vector3 pointB = destiniation.position;
+            Vector3 pointB = destination.position;
+
 
             counter += 1f / lineDrawSpeed;
 
@@ -140,7 +160,7 @@ public class Path : MonoBehaviour
             SetPositions(position, pointAlongLine);
 
         }
-       
+
         else if (pathType == PathType.Circular)
         {
 
@@ -152,10 +172,26 @@ public class Path : MonoBehaviour
                 nextVerticeIndex = 0;
             }
 
-            origin = destiniation;
-            destiniation = catchersHolder.transform.GetChild(nextVerticeIndex);
+            origin = destination;
+            destination = catchersHolder.transform.GetChild(nextVerticeIndex);
             calculateDistance();
-        }   
+        }
+    }
+
+    private void DrawPathDuringRotation(int position)
+    {
+        SetPositions(position, destination.position);
+
+        if (pathType == PathType.Circular)
+        {
+            //Update all vertices
+            for (int i = 1; i < catchersHolder.transform.childCount; i++)
+            {
+                SetPositions(i, catchersHolder.transform.GetChild(i).position);
+            }
+
+        }
+        return;
     }
 
     private void SetPositions(int position,Vector3 pointAlongLine)
@@ -175,7 +211,7 @@ public class Path : MonoBehaviour
 
     public void SetDestiniation(Transform destiniation)
     {
-        this.destiniation = destiniation;
+        this.destination = destiniation;
     }
 
     public Transform GetOrigin()
@@ -190,7 +226,7 @@ public class Path : MonoBehaviour
 
     public Transform GetDestination()
     {
-        return this.destiniation;
+        return this.destination;
     }
 
     public void SetPathType(PathType pathType)
