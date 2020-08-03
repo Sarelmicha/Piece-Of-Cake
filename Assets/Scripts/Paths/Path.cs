@@ -6,6 +6,7 @@ using UnityEngine;
 public class Path : MonoBehaviour
 {
     GameObject catchersHolder;
+    RotationManager rotationManager;
     [SerializeField] float lineDrawSpeed = 6f;
     [SerializeField] float pathWidth = 0.45f;
     [SerializeField] float timeToLive = 5f;
@@ -20,7 +21,7 @@ public class Path : MonoBehaviour
     private bool destinationIndexHasFound = false;
     private bool isStartPositionSet;
     private bool isFinishedFullPath = false;
-    private RotationManager rotationManager;
+    
 
     Transform origin;
     Transform destination;
@@ -181,13 +182,19 @@ public class Path : MonoBehaviour
     private void DrawPathDuringRotation(int position)
     {
         SetPositions(position, destination.position);
+       
 
         if (pathType == PathType.Circular)
         {
+            int catcherIndex = GetVerticeIndex(destination.position);
             //Update all vertices
             for (int i = 1; i < catchersHolder.transform.childCount; i++)
             {
-                SetPositions(i, catchersHolder.transform.GetChild(i).position);
+                SetPositions(i, catchersHolder.transform.GetChild(catcherIndex++).position);
+                if (catcherIndex == numOfVertices)
+                {
+                    catcherIndex = 0;
+                }
             }
 
         }
