@@ -9,13 +9,13 @@ public class RotationManager : MonoBehaviour
 
     Ring[] currentRings = null;
     Vector3 initalRotation;
-    bool rotate = false;
+    bool isRotate = false;
     const int FULL_CIRCLE = 360;
   
 
     private void Update()
     {
-        if (rotate)
+        if (isRotate)
         {
             RotateRings();
         }
@@ -27,26 +27,28 @@ public class RotationManager : MonoBehaviour
         foreach(Ring ring in currentRings)
         {
             ring.transform.Rotate((Vector3.forward * rotationSpeed * Time.deltaTime));
-
-            print("current rotation is " + ring.transform.eulerAngles.z);
           
-
            if (Mathf.RoundToInt(ring.transform.eulerAngles.z) % FULL_CIRCLE == 0)
             {
-                print("im here!");
                 ring.transform.eulerAngles = Vector3.zero;
-                rotate = false;
+                isRotate = false;
             }
         }
     }
 
     public void TriggerRingRotationForSeconds(Ring[] rings)
     {
-        if (rotate)
+        if (isRotate)
         {
             return;
         }
         currentRings = rings;      
-        rotate = true;
+        isRotate = true;
+    }
+
+
+    public bool IsRotate()
+    {
+        return this.isRotate;
     }
 }

@@ -12,8 +12,13 @@ public class PathSpawner : MonoBehaviour
      
         Path newPath = Instantiate(path, transform.position, Quaternion.identity);
         newPath.SetPathType(pathType);
-        newPath.SetOrigin(origin.position);
-        newPath.SetDestiniation(destiniation.position);
+        SetOriginAndDestination(newPath, origin, destiniation);
 
+    }
+
+    public void SetOriginAndDestination(Path path,Transform origin, Transform destiniation)
+    {
+        path.SetOrigin(origin);
+        path.SetDestiniation(destiniation);
     }
 }

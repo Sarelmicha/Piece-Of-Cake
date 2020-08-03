@@ -36,7 +36,7 @@ public class HoverPath : MonoBehaviour
     {  
         this.swipeStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        if (Input.GetMouseButtonDown(0) && !isHover && Vector2.Distance(swipeStart, path.GetStartPosition()) < 1f)
+        if (Input.GetMouseButtonDown(0) && !isHover && Vector2.Distance(swipeStart, path.GetStartPosition().position) < 1f)
         {
 
             //Set the swipe start position
@@ -81,7 +81,7 @@ public class HoverPath : MonoBehaviour
     {
         for (int i = 0; i < numOfVertices; i++)
         {
-            lineRenderer.SetPosition(i, path.GetStartPosition());
+            lineRenderer.SetPosition(i, path.GetStartPosition().position);
         }
     }
 
@@ -93,7 +93,7 @@ public class HoverPath : MonoBehaviour
                 destination = catchersHolder.transform.GetChild(nextVericeIndex).position;
                 break;
             case PathType.Line:
-                destination = path.GetDestination();
+                destination = path.GetDestination().position;
                 break;
         }
     }
@@ -210,7 +210,7 @@ public class HoverPath : MonoBehaviour
 
     private bool IsLinePathAlign()
     {
-        return Vector2.Distance(lineRenderer.GetPosition(0), path.GetOrigin()) < 0.5f &&
-                   Vector2.Distance(lineRenderer.GetPosition(1), path.GetDestination()) < 0.5f;
+        return Vector2.Distance(lineRenderer.GetPosition(0), path.GetOrigin().position) < 0.5f &&
+                   Vector2.Distance(lineRenderer.GetPosition(1), path.GetDestination().position) < 0.5f;
     }
 }
