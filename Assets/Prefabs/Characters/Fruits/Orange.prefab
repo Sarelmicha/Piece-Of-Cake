@@ -12,9 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b5cd6eabbcf1e84984ee52bd8a9b275, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsToRotate: 5
-  rotationManager: {fileID: 3150488672511929957, guid: f3e7f70abb9b3ba42a6520724cc27dc7,
-    type: 3}
 --- !u!1001 &8308028485403079813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -179,6 +176,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 3600299627630784845, guid: 64178403758f8b744b455cf4b48648fe,
+        type: 3}
+      propertyPath: scorePoints
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 212100001586098630, guid: 64178403758f8b744b455cf4b48648fe, type: 3}

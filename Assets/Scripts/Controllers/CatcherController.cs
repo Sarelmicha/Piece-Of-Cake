@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -13,6 +14,8 @@ public class CatcherController : MonoBehaviour
     [SerializeField] GameObject bonusEffect;
     [SerializeField] GameObject rotateEffect;
 
+    GameManager gameManager;
+
     bool isTriggerd = false;
 
     Animator animator;
@@ -21,6 +24,7 @@ public class CatcherController : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+        gameManager = GameObject.FindWithTag("Game Manager").GetComponent<GameManager>();
     }
 
     private void Update()
@@ -56,13 +60,15 @@ public class CatcherController : MonoBehaviour
             {
                 if (hit.collider.gameObject.name == gameObject.name)
                 {
-                    FruitController cupcake = collision.gameObject.GetComponent<FruitController>();
+                    FruitController fruit = collision.gameObject.GetComponent<FruitController>();
 
-                    if (cupcake == null)
+                    if (fruit == null)
                     {
                         return;
                     }
-                    cupcake.Die();
+                    
+                    fruit.Die();
+                    AwardScore(fruit);
 
                     ISpecialPower special = collision.gameObject.GetComponent<ISpecialPower>();
 
@@ -81,6 +87,11 @@ public class CatcherController : MonoBehaviour
 
         //isHandleFruit = false;
         isTriggerd = false;
+    }
+
+    private void AwardScore(FruitController cupcake)
+    {
+        gameManager.AddToScore(cupcake.GetScorePoints());
     }
 
     public void Hover()

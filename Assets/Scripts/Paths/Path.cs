@@ -10,6 +10,7 @@ public class Path : MonoBehaviour
     [SerializeField] float lineDrawSpeed = 6f;
     [SerializeField] float pathWidth = 0.45f;
     [SerializeField] float timeToLive = 5f;
+    [SerializeField] int scorePoints = 50;
 
     private LineRenderer lineRenderer;
     private float counter;
@@ -219,6 +220,20 @@ public class Path : MonoBehaviour
     public void SetDestiniation(Transform destiniation)
     {
         this.destination = destiniation;
+    }
+
+    public int GetScorePoints()
+    {
+        if (pathType == PathType.Line)
+        {
+            return scorePoints;
+        }
+        else if (pathType == PathType.Circular)
+        {
+            return scorePoints * 2;
+        }
+
+        return 0;
     }
 
     public Transform GetOrigin()

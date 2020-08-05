@@ -18,11 +18,13 @@ public class HoverPath : MonoBehaviour
     private int nextVericeIndex;
     private int currentLineRenderVerticeIndex = 0;
     private int numOfVertices;
+    private GameManager gameManager;
 
 
     private void Start()
     {
         catchersHolder = GameObject.FindWithTag("Catchers Holder");
+        gameManager = GameObject.FindWithTag("Game Manager").GetComponent<GameManager>();
 
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.startWidth = 0.45f;
@@ -159,6 +161,7 @@ public class HoverPath : MonoBehaviour
         if (IsPathVerticesAlign())
         {
             //Award score
+            AwardScore();
             Destroy(transform.parent.gameObject);
             return true;
         }
@@ -212,5 +215,12 @@ public class HoverPath : MonoBehaviour
     {
         return Vector2.Distance(lineRenderer.GetPosition(0), path.GetOrigin().position) < 0.5f &&
                    Vector2.Distance(lineRenderer.GetPosition(1), path.GetDestination().position) < 0.5f;
+    }
+
+    private void AwardScore()
+    {
+
+        gameManager.AddToScore(path.GetScorePoints());
+       
     }
 }

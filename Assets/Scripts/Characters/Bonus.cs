@@ -8,8 +8,8 @@ public class Bonus : MonoBehaviour, ISpecialPower
 
     UIManager uiManager;
     Canvas bonusCanvas;
- 
-    
+
+
 
     private void Awake()
     {

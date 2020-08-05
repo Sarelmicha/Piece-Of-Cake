@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour, ISpecialPower
 {
+
     public void InvokeSpecialPower(CatcherController catcher)
     {
 

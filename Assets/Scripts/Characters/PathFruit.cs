@@ -10,7 +10,7 @@ public class PathFruit : MonoBehaviour, ISpecialPower
     GameObject pathSpawner;
     Transform origin;
     Transform destination;
-    
+
     int index;
     bool isDeadByClicking = false;
 
@@ -26,7 +26,6 @@ public class PathFruit : MonoBehaviour, ISpecialPower
      
         if (isDeadByClicking)
         {
-            //TODO - Change path to regular. need to create another cupcake for circular
             pathSpawner.GetComponent<PathSpawner>().InstanitatePath(origin, destination,pathType);
         }
     }
@@ -69,4 +68,5 @@ public class PathFruit : MonoBehaviour, ISpecialPower
         IsDeadByClicking(true);
         catcher.RightClick();
     }
+
 }

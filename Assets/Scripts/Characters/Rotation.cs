@@ -20,7 +20,6 @@ public class Rotation : MonoBehaviour, ISpecialPower
 
         if (rings.Length != 0)
         {
-
             rotationManager.TriggerRingRotationForSeconds(rings);
         }
     }

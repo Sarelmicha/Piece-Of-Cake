@@ -9,6 +9,7 @@ public class FruitController : MonoBehaviour
     [SerializeField] GameObject catchersHolder;
     [SerializeField] float speed = 0.1f;
     [SerializeField] float maxBoundary = 3f;
+    [SerializeField] int scorePoints = 5;
 
     FruitsSpawner fruitsSpawner;
     Transform target;
@@ -54,5 +55,10 @@ public class FruitController : MonoBehaviour
     private void SetTarget(int index)
     {  
         target = catchersHolder.transform.GetChild(index).transform;
-    } 
+    }
+
+    public int GetScorePoints()
+    {
+        return this.scorePoints;
+    }
 }
