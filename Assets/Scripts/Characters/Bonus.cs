@@ -6,7 +6,7 @@ public class Bonus : MonoBehaviour, ISpecialPower
 {
     [SerializeField] float bonusTime = 3f;
 
-    UIManager uiManager;
+    //UIController uiController;
     Canvas bonusCanvas;
 
 
@@ -14,14 +14,14 @@ public class Bonus : MonoBehaviour, ISpecialPower
     private void Awake()
     {
         bonusCanvas = GameObject.FindWithTag("Bonus Canvas").GetComponent<Canvas>();
-        uiManager = GameObject.FindWithTag("UI Manager").GetComponent<UIManager>();
+      //  uiController = GameObject.FindWithTag("UI Manager").GetComponent<UIController>();
        
     }
 
     public void InvokeSpecialPower(CatcherController catcher)
     {       
         catcher.BonusClick();
-        uiManager.SwitchCanvasForSeconds(bonusCanvas,bonusTime);
+        //uiController.SwitchCanvasForSeconds(bonusCanvas,bonusTime);
     }
 }
    

@@ -14,7 +14,7 @@ public class CatcherController : MonoBehaviour
     [SerializeField] GameObject bonusEffect;
     [SerializeField] GameObject rotateEffect;
 
-    GameManager gameManager;
+    UIController uiController;
 
     bool isTriggerd = false;
 
@@ -24,7 +24,7 @@ public class CatcherController : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-        gameManager = GameObject.FindWithTag("Game Manager").GetComponent<GameManager>();
+        uiController = GameObject.FindWithTag("UI Controller").GetComponent<UIController>();
     }
 
     private void Update()
@@ -91,7 +91,7 @@ public class CatcherController : MonoBehaviour
 
     private void AwardScore(FruitController cupcake)
     {
-        gameManager.AddToScore(cupcake.GetScorePoints());
+        uiController.AddToScore(cupcake.GetScorePoints());
     }
 
     public void Hover()

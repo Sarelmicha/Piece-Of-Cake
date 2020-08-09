@@ -11,7 +11,7 @@ public class FruitsSpawner : MonoBehaviour
     [SerializeField] float minSummonTime = 0.5f;
     [SerializeField] float maxSummonTime = 1f;
     [SerializeField] float circleSpawnTime = 0.5f;
-    [SerializeField] GameManager gameManager;
+    [SerializeField] UIController uiController;
 
     int startCircularIndex;
     int runningCircularIndex;
@@ -21,7 +21,7 @@ public class FruitsSpawner : MonoBehaviour
 
     private void Awake()
     {
-        gameManager = GameObject.FindWithTag("Game Manager").GetComponent<GameManager>();
+        uiController = GameObject.FindWithTag("UI Controller").GetComponent<UIController>();
     }
 
     // Update is called once per frame
@@ -92,7 +92,7 @@ public class FruitsSpawner : MonoBehaviour
     private void SetCupcakeIndex()
     {
 
-        switch (gameManager.GetGameMode())
+        switch (uiController.GetGameMode())
         {
             case GameMode.Regular:
                 cupcakeIndex = UnityEngine.Random.Range(0, cupcakes.Length);

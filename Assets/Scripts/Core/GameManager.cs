@@ -1,116 +1,57 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
 
-    [SerializeField] Text scoreText;
-    [SerializeField] Text timeText;
+    int currentSceneIndex = 0;
+    int currentLevel;
 
-    int score = 0;
-    int timer = 120;
-
-    GameMode gameMode;
-    bool newModeHasBeenSet = false;
- 
 
     private void Awake()
     {
-        gameMode = GameMode.Regular;
-    }
 
-    private void Start()
-    {
-        scoreText.text = score.ToString();
-        timeText.text = timer.ToString();
-        StartCoroutine(UpdateTime());
-    }
-
-    private void Update()
-    {
-        if (!newModeHasBeenSet)
+        if (FindObjectsOfType<GameManager>().Length > 1)
         {
-            return;
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
         }
 
-        switch (gameMode)
-        {
-            case GameMode.Regular:
-                SetRegularSettings();
-                break;
-            case GameMode.DoubleTwo:
-                SetDoubleTwoSettings();
-                break;
-        }
-
-      
+        //TODO - In the future get the current level from the file system
+        currentSceneIndex = 0;
+        currentLevel = 1;
     }
 
-    private IEnumerator UpdateTime()
+    public void RestartScene()
     {
-        while (timer > 0)
-        {
-            yield return new WaitForSeconds(1);
-            timer--;
-            FormatTime();
-
-        }
-      
+        SceneManager.LoadScene(currentSceneIndex);
     }
 
-    private void FormatTime()
+    public void LoadMainMenu()
     {
-        int minutes = Mathf.FloorToInt(timer / 60f);
-        int seconds = Mathf.FloorToInt(timer - minutes * 60);
-        timeText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+        SceneManager.LoadScene("Start Screen");
     }
 
-    private void SetDoubleTwoSettings()
+    public void LoadNextScene()
     {
-        newModeHasBeenSet = false;
-    
+        SceneManager.LoadScene(currentSceneIndex + 1);
     }
-
-    private void SetRegularSettings()
+    public void LoadSpecificScene(int specificSceneIndex)
     {
-        newModeHasBeenSet = false;
-
+        SceneManager.LoadScene(specificSceneIndex);
     }
 
-    public void SetGameMode(GameMode gameMode)
+
+    public void QuitGame()
     {
-        this.gameMode = gameMode;
-        newModeHasBeenSet = true;
+        Application.Quit();
     }
 
-    public GameMode GetGameMode()
-    {
-        return this.gameMode;
-    }
 
-    public void AddToScore(int scorePoints)
-    {
-        if (gameMode == GameMode.Regular)
-        {
-            UpdateScore(scorePoints);
-        }
-        else if (gameMode == GameMode.DoubleTwo)
-        {
-            UpdateScore(scorePoints * 2);
-        }
-    }
 
-    private void UpdateScore(int scorePoints)
-    {
-        score += scorePoints;
-        if (score < 0)
-        {
-            score = 0;
-        }
-        scoreText.text = score.ToString();
-    }
+
 
 }

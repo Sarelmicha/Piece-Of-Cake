@@ -13,30 +13,174 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-08-05T17:15:02.426+03:00
-  initializedAtString: 2020-08-05T17:03:49.869+03:00
+  lastUpdatedAtString: 2020-08-09T15:02:36.490+03:00
+  initializedAtString: 2020-08-09T14:36:12.555+03:00
   entries:
-  - path: Assets\Images\Heart.png
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Heart.png
-    projectPath: Assets\Images\Heart.png
+  - path: .vs\Piece-Of-Cake\v15\.suo
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\.suo
+    projectPath: .vs\Piece-Of-Cake\v15\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\.vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Piece-Of-Cake\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\UI.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Animations\UI.meta
+    projectPath: Assets\Animations\UI.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Images\Heart.png.meta
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Heart.png.meta
-    projectPath: Assets\Images\Heart.png.meta
+  - path: Assets\Animations\UI\Resize.anim
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Animations\UI\Resize.anim
+    projectPath: Assets\Animations\UI\Resize.anim
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Images\Heart_Black.png
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Heart_Black.png
-    projectPath: Assets\Images\Heart_Black.png
+  - path: Assets\Animations\UI\Resize.anim.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Animations\UI\Resize.anim.meta
+    projectPath: Assets\Animations\UI\Resize.anim.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Images\Heart_Black.png.meta
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Heart_Black.png.meta
-    projectPath: Assets\Images\Heart_Black.png.meta
+  - path: Assets\Images\Bbonus_Background.jpg
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Bbonus_Background.jpg
+    projectPath: Assets\Images\Bbonus_Background.jpg
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Images\Bbonus_Background.jpg.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Bbonus_Background.jpg.meta
+    projectPath: Assets\Images\Bbonus_Background.jpg.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Images\Bonus_Background.jpg
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Bonus_Background.jpg
+    projectPath: Assets\Images\Bonus_Background.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Images\Bonus_Background.jpg.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Bonus_Background.jpg.meta
+    projectPath: Assets\Images\Bonus_Background.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Images\Capture-removebg-preview.png
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Capture-removebg-preview.png
+    projectPath: Assets\Images\Capture-removebg-preview.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Images\Capture-removebg-preview.png.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Capture-removebg-preview.png.meta
+    projectPath: Assets\Images\Capture-removebg-preview.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Images\Opening Backhround.png
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Opening Backhround.png
+    projectPath: Assets\Images\Opening Backhround.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Images\Opening Backhround.png.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Images\Opening Backhround.png.meta
+    projectPath: Assets\Images\Opening Backhround.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Core\Game Manager.prefab
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Prefabs\Core\Game Manager.prefab
+    projectPath: Assets\Prefabs\Core\Game Manager.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\Core\Game Manager.prefab.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Prefabs\Core\Game Manager.prefab.meta
+    projectPath: Assets\Prefabs\Core\Game Manager.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\UI\HUD.prefab
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Prefabs\UI\HUD.prefab
+    projectPath: Assets\Prefabs\UI\HUD.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\UI\HUD.prefab.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Prefabs\UI\HUD.prefab.meta
+    projectPath: Assets\Prefabs\UI\HUD.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\UI\UI Controller.prefab
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Prefabs\UI\UI Controller.prefab
+    projectPath: Assets\Prefabs\UI\UI Controller.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\UI\UI Controller.prefab.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Prefabs\UI\UI Controller.prefab.meta
+    projectPath: Assets\Prefabs\UI\UI Controller.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\UI\UI Manager.prefab
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Prefabs\UI\UI Manager.prefab
+    projectPath: Assets\Prefabs\UI\UI Manager.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Prefabs\UI\UI Manager.prefab.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Prefabs\UI\UI Manager.prefab.meta
+    projectPath: Assets\Prefabs\UI\UI Manager.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scenes\Level 1.unity
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scenes\Level 1.unity
+    projectPath: Assets\Scenes\Level 1.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Level 1.unity.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scenes\Level 1.unity.meta
+    projectPath: Assets\Scenes\Level 1.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Opening Screen.unity
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scenes\Opening Screen.unity
+    projectPath: Assets\Scenes\Opening Screen.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Opening Screen.unity.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scenes\Opening Screen.unity.meta
+    projectPath: Assets\Scenes\Opening Screen.unity.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -45,7 +189,229 @@ MonoBehaviour:
     projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scenes\SampleScene.unity.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scenes\SampleScene.unity.meta
+    projectPath: Assets\Scenes\SampleScene.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Characters\Bonus.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Characters\Bonus.cs
+    projectPath: Assets\Scripts\Characters\Bonus.cs
+    originalPath: 
+    indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Scripts\Characters\FruitsSpawner.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Characters\FruitsSpawner.cs
+    projectPath: Assets\Scripts\Characters\FruitsSpawner.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Controllers\CatcherController.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Controllers\CatcherController.cs
+    projectPath: Assets\Scripts\Controllers\CatcherController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Core\GameManager.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Core\GameManager.cs
+    projectPath: Assets\Scripts\Core\GameManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Core\Progression.asset
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Core\Progression.asset
+    projectPath: Assets\Scripts\Core\Progression.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Core\Progression.asset.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Core\Progression.asset.meta
+    projectPath: Assets\Scripts\Core\Progression.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Paths.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Paths.meta
+    projectPath: Assets\Scripts\Paths.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Paths\HoverPath.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Paths\HoverPath.cs
+    projectPath: Assets\Scripts\Paths\HoverPath.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Paths\HoverPath.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Paths\HoverPath.cs.meta
+    projectPath: Assets\Scripts\Paths\HoverPath.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Paths\Path.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Paths\Path.cs
+    projectPath: Assets\Scripts\Paths\Path.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Paths\Path.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Paths\Path.cs.meta
+    projectPath: Assets\Scripts\Paths\Path.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Paths\PathSpawner.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Paths\PathSpawner.cs
+    projectPath: Assets\Scripts\Paths\PathSpawner.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Paths\PathSpawner.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Paths\PathSpawner.cs.meta
+    projectPath: Assets\Scripts\Paths\PathSpawner.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Saving.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Saving.meta
+    projectPath: Assets\Scripts\Saving.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Saving\ISaveable.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Saving\ISaveable.cs
+    projectPath: Assets\Scripts\Saving\ISaveable.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Saving\ISaveable.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Saving\ISaveable.cs.meta
+    projectPath: Assets\Scripts\Saving\ISaveable.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Saving\SaveableEntity.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Saving\SaveableEntity.cs
+    projectPath: Assets\Scripts\Saving\SaveableEntity.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Saving\SaveableEntity.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Saving\SaveableEntity.cs.meta
+    projectPath: Assets\Scripts\Saving\SaveableEntity.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Saving\SavingSystem.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Saving\SavingSystem.cs
+    projectPath: Assets\Scripts\Saving\SavingSystem.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Saving\SavingSystem.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Saving\SavingSystem.cs.meta
+    projectPath: Assets\Scripts\Saving\SavingSystem.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Stats.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Stats.meta
+    projectPath: Assets\Scripts\Stats.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Stats\Progression.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Stats\Progression.cs
+    projectPath: Assets\Scripts\Stats\Progression.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Stats\Progression.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Stats\Progression.cs.meta
+    projectPath: Assets\Scripts\Stats\Progression.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Stats\Stats.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Stats\Stats.cs
+    projectPath: Assets\Scripts\Stats\Stats.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Stats\Stats.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\Stats\Stats.cs.meta
+    projectPath: Assets\Scripts\Stats\Stats.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\Paths.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\Paths.meta
+    projectPath: Assets\Scripts\UI\Paths.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\Paths\HoverPath.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\Paths\HoverPath.cs
+    projectPath: Assets\Scripts\UI\Paths\HoverPath.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\Paths\HoverPath.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\Paths\HoverPath.cs.meta
+    projectPath: Assets\Scripts\UI\Paths\HoverPath.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\Paths\Path.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\Paths\Path.cs
+    projectPath: Assets\Scripts\UI\Paths\Path.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\Paths\Path.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\Paths\Path.cs.meta
+    projectPath: Assets\Scripts\UI\Paths\Path.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\Paths\PathSpawner.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\Paths\PathSpawner.cs
+    projectPath: Assets\Scripts\UI\Paths\PathSpawner.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\Paths\PathSpawner.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\Paths\PathSpawner.cs.meta
+    projectPath: Assets\Scripts\UI\Paths\PathSpawner.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\UIController.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\UIController.cs
+    projectPath: Assets\Scripts\UI\UIController.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\UIController.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\UIController.cs.meta
+    projectPath: Assets\Scripts\UI\UIController.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UI\UIManager.cs
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\UIManager.cs
+    projectPath: Assets\Scripts\UI\UIManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\UI\UIManager.cs.meta
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Assets\Scripts\UI\UIManager.cs.meta
+    projectPath: Assets\Scripts\UI\UIManager.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\assetDatabase3
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\assetDatabase3
     projectPath: Library\assetDatabase3
@@ -58,6 +424,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\CurrentMaximizeLayout.dwlt
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\CurrentMaximizeLayout.dwlt
     projectPath: Library\CurrentMaximizeLayout.dwlt
@@ -70,6 +442,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\expandedItems
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
@@ -94,33 +472,507 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\02\02174b31c12a86d46928a8c60cf6904f
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\02\02174b31c12a86d46928a8c60cf6904f
-    projectPath: Library\metadata\02\02174b31c12a86d46928a8c60cf6904f
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\LastBuild.buildreport
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\LastBuild.buildreport
+    projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\03\0356dba5ec1258840b49cf88cf049dc2
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\03\0356dba5ec1258840b49cf88cf049dc2
+    projectPath: Library\metadata\03\0356dba5ec1258840b49cf88cf049dc2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\03\0356dba5ec1258840b49cf88cf049dc2.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\03\0356dba5ec1258840b49cf88cf049dc2.info
+    projectPath: Library\metadata\03\0356dba5ec1258840b49cf88cf049dc2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\13\1301ed48c0cd08e478fc93da8b762ac1
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\13\1301ed48c0cd08e478fc93da8b762ac1
+    projectPath: Library\metadata\13\1301ed48c0cd08e478fc93da8b762ac1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\2a\2ace66a8a5e69814b9c84e70a453fd7c
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\2a\2ace66a8a5e69814b9c84e70a453fd7c
+    projectPath: Library\metadata\2a\2ace66a8a5e69814b9c84e70a453fd7c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\02\02174b31c12a86d46928a8c60cf6904f.info
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\02\02174b31c12a86d46928a8c60cf6904f.info
-    projectPath: Library\metadata\02\02174b31c12a86d46928a8c60cf6904f.info
+  - path: Library\metadata\2a\2ace66a8a5e69814b9c84e70a453fd7c.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\2a\2ace66a8a5e69814b9c84e70a453fd7c.info
+    projectPath: Library\metadata\2a\2ace66a8a5e69814b9c84e70a453fd7c.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\27\27c9636112d22b848ba227471e77fb69
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\27\27c9636112d22b848ba227471e77fb69
-    projectPath: Library\metadata\27\27c9636112d22b848ba227471e77fb69
+  - path: Library\metadata\2c\2cd1cd453ec794d4b9ea194d330e8531
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\2c\2cd1cd453ec794d4b9ea194d330e8531
+    projectPath: Library\metadata\2c\2cd1cd453ec794d4b9ea194d330e8531
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\2c\2cd1cd453ec794d4b9ea194d330e8531.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\2c\2cd1cd453ec794d4b9ea194d330e8531.info
+    projectPath: Library\metadata\2c\2cd1cd453ec794d4b9ea194d330e8531.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\36\36ed007ba60941745a30c840979072e3
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\36\36ed007ba60941745a30c840979072e3
+    projectPath: Library\metadata\36\36ed007ba60941745a30c840979072e3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\27\27c9636112d22b848ba227471e77fb69.info
-    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\27\27c9636112d22b848ba227471e77fb69.info
-    projectPath: Library\metadata\27\27c9636112d22b848ba227471e77fb69.info
+  - path: Library\metadata\36\36ed007ba60941745a30c840979072e3.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\36\36ed007ba60941745a30c840979072e3.info
+    projectPath: Library\metadata\36\36ed007ba60941745a30c840979072e3.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\metadata\38\38c786b3c76bf614da457bad68fe95a8
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\38\38c786b3c76bf614da457bad68fe95a8
+    projectPath: Library\metadata\38\38c786b3c76bf614da457bad68fe95a8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\38\38c786b3c76bf614da457bad68fe95a8.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\38\38c786b3c76bf614da457bad68fe95a8.info
+    projectPath: Library\metadata\38\38c786b3c76bf614da457bad68fe95a8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\3e\3e3f0f85a62a7ab4e936bed5cfa74a85
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\3e\3e3f0f85a62a7ab4e936bed5cfa74a85
+    projectPath: Library\metadata\3e\3e3f0f85a62a7ab4e936bed5cfa74a85
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\47\4745d21baa99f9a44b355f254efd6815
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\47\4745d21baa99f9a44b355f254efd6815
+    projectPath: Library\metadata\47\4745d21baa99f9a44b355f254efd6815
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\47\4745d21baa99f9a44b355f254efd6815.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\47\4745d21baa99f9a44b355f254efd6815.info
+    projectPath: Library\metadata\47\4745d21baa99f9a44b355f254efd6815.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\48\48f1f5a7111b0554daf880061954f932
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\48\48f1f5a7111b0554daf880061954f932
+    projectPath: Library\metadata\48\48f1f5a7111b0554daf880061954f932
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\48\48f1f5a7111b0554daf880061954f932.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\48\48f1f5a7111b0554daf880061954f932.info
+    projectPath: Library\metadata\48\48f1f5a7111b0554daf880061954f932.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5d\5dcbb44fae9acf14ead72158613bc854
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\5d\5dcbb44fae9acf14ead72158613bc854
+    projectPath: Library\metadata\5d\5dcbb44fae9acf14ead72158613bc854
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5d\5dcbb44fae9acf14ead72158613bc854.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\5d\5dcbb44fae9acf14ead72158613bc854.info
+    projectPath: Library\metadata\5d\5dcbb44fae9acf14ead72158613bc854.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\64\64cf928a41766794782a4aed3306e649
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\64\64cf928a41766794782a4aed3306e649
+    projectPath: Library\metadata\64\64cf928a41766794782a4aed3306e649
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\64\64cf928a41766794782a4aed3306e649.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\64\64cf928a41766794782a4aed3306e649.info
+    projectPath: Library\metadata\64\64cf928a41766794782a4aed3306e649.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6a\6a79a78c0d803c24b896b6d8db12c432
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\6a\6a79a78c0d803c24b896b6d8db12c432
+    projectPath: Library\metadata\6a\6a79a78c0d803c24b896b6d8db12c432
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6a\6a79a78c0d803c24b896b6d8db12c432.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\6a\6a79a78c0d803c24b896b6d8db12c432.info
+    projectPath: Library\metadata\6a\6a79a78c0d803c24b896b6d8db12c432.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6c\6c7bd98a9e5051749aefa1a2663b470b
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\6c\6c7bd98a9e5051749aefa1a2663b470b
+    projectPath: Library\metadata\6c\6c7bd98a9e5051749aefa1a2663b470b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6c\6c7bd98a9e5051749aefa1a2663b470b.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\6c\6c7bd98a9e5051749aefa1a2663b470b.info
+    projectPath: Library\metadata\6c\6c7bd98a9e5051749aefa1a2663b470b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6e\6ed84e279f357e64688deb8cadee9fe1
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\6e\6ed84e279f357e64688deb8cadee9fe1
+    projectPath: Library\metadata\6e\6ed84e279f357e64688deb8cadee9fe1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6e\6ed84e279f357e64688deb8cadee9fe1.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\6e\6ed84e279f357e64688deb8cadee9fe1.info
+    projectPath: Library\metadata\6e\6ed84e279f357e64688deb8cadee9fe1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6f\6fd01d5f8dbc8134e9e7674a174a7260
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\6f\6fd01d5f8dbc8134e9e7674a174a7260
+    projectPath: Library\metadata\6f\6fd01d5f8dbc8134e9e7674a174a7260
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\7a\7a82ab48c120d0b4dba16bad4d74e6c2
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\7a\7a82ab48c120d0b4dba16bad4d74e6c2
+    projectPath: Library\metadata\7a\7a82ab48c120d0b4dba16bad4d74e6c2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7a\7a82ab48c120d0b4dba16bad4d74e6c2.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\7a\7a82ab48c120d0b4dba16bad4d74e6c2.info
+    projectPath: Library\metadata\7a\7a82ab48c120d0b4dba16bad4d74e6c2.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7b\7bffdcc8bbaf9f14da2c1579d00f5d86
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\7b\7bffdcc8bbaf9f14da2c1579d00f5d86
+    projectPath: Library\metadata\7b\7bffdcc8bbaf9f14da2c1579d00f5d86
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\7b\7bffdcc8bbaf9f14da2c1579d00f5d86.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\7b\7bffdcc8bbaf9f14da2c1579d00f5d86.info
+    projectPath: Library\metadata\7b\7bffdcc8bbaf9f14da2c1579d00f5d86.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\81\8171ce621445f5f448fc6491b0782cd4
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\81\8171ce621445f5f448fc6491b0782cd4
+    projectPath: Library\metadata\81\8171ce621445f5f448fc6491b0782cd4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\81\8171ce621445f5f448fc6491b0782cd4.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\81\8171ce621445f5f448fc6491b0782cd4.info
+    projectPath: Library\metadata\81\8171ce621445f5f448fc6491b0782cd4.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\86\8609b3bb6b1510c42a1a340e46723f22
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\86\8609b3bb6b1510c42a1a340e46723f22
+    projectPath: Library\metadata\86\8609b3bb6b1510c42a1a340e46723f22
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\86\8609b3bb6b1510c42a1a340e46723f22.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\86\8609b3bb6b1510c42a1a340e46723f22.info
+    projectPath: Library\metadata\86\8609b3bb6b1510c42a1a340e46723f22.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\89\89e468277ff892b438705ffa079a7380
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\89\89e468277ff892b438705ffa079a7380
+    projectPath: Library\metadata\89\89e468277ff892b438705ffa079a7380
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a0\a088b0a20290d2b4da809226c69cb0a7
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\a0\a088b0a20290d2b4da809226c69cb0a7
+    projectPath: Library\metadata\a0\a088b0a20290d2b4da809226c69cb0a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a0\a088b0a20290d2b4da809226c69cb0a7.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\a0\a088b0a20290d2b4da809226c69cb0a7.info
+    projectPath: Library\metadata\a0\a088b0a20290d2b4da809226c69cb0a7.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b1\b144cbdd0448a694583b5eadcef711b4
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\b1\b144cbdd0448a694583b5eadcef711b4
+    projectPath: Library\metadata\b1\b144cbdd0448a694583b5eadcef711b4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b1\b144cbdd0448a694583b5eadcef711b4.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\b1\b144cbdd0448a694583b5eadcef711b4.info
+    projectPath: Library\metadata\b1\b144cbdd0448a694583b5eadcef711b4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b3\b314d1c34cb12294dbd473bbf5ec2629
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\b3\b314d1c34cb12294dbd473bbf5ec2629
+    projectPath: Library\metadata\b3\b314d1c34cb12294dbd473bbf5ec2629
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b3\b314d1c34cb12294dbd473bbf5ec2629.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\b3\b314d1c34cb12294dbd473bbf5ec2629.info
+    projectPath: Library\metadata\b3\b314d1c34cb12294dbd473bbf5ec2629.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b9\b9bdab2dcf83ca14aa16f1e07a3211b4
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\b9\b9bdab2dcf83ca14aa16f1e07a3211b4
+    projectPath: Library\metadata\b9\b9bdab2dcf83ca14aa16f1e07a3211b4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b9\b9bdab2dcf83ca14aa16f1e07a3211b4.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\b9\b9bdab2dcf83ca14aa16f1e07a3211b4.info
+    projectPath: Library\metadata\b9\b9bdab2dcf83ca14aa16f1e07a3211b4.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\c8\c887c2a039990d24b9bba09130d3768c
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\c8\c887c2a039990d24b9bba09130d3768c
+    projectPath: Library\metadata\c8\c887c2a039990d24b9bba09130d3768c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\c8\c887c2a039990d24b9bba09130d3768c.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\c8\c887c2a039990d24b9bba09130d3768c.info
+    projectPath: Library\metadata\c8\c887c2a039990d24b9bba09130d3768c.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\cd\cdff35c3b38dbd54e99b49434311b119
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\cd\cdff35c3b38dbd54e99b49434311b119
+    projectPath: Library\metadata\cd\cdff35c3b38dbd54e99b49434311b119
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\cd\cdff35c3b38dbd54e99b49434311b119.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\cd\cdff35c3b38dbd54e99b49434311b119.info
+    projectPath: Library\metadata\cd\cdff35c3b38dbd54e99b49434311b119.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d2\d298b26ee8ed67448b6af040b5880215
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\d2\d298b26ee8ed67448b6af040b5880215
+    projectPath: Library\metadata\d2\d298b26ee8ed67448b6af040b5880215
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d2\d298b26ee8ed67448b6af040b5880215.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\d2\d298b26ee8ed67448b6af040b5880215.info
+    projectPath: Library\metadata\d2\d298b26ee8ed67448b6af040b5880215.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d9\d912000b957bb98458587d9ecdf1dd58
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\d9\d912000b957bb98458587d9ecdf1dd58
+    projectPath: Library\metadata\d9\d912000b957bb98458587d9ecdf1dd58
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d9\d912000b957bb98458587d9ecdf1dd58.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\d9\d912000b957bb98458587d9ecdf1dd58.info
+    projectPath: Library\metadata\d9\d912000b957bb98458587d9ecdf1dd58.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\fa\fa2321839247eee40820de8a01013a8b
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\fa\fa2321839247eee40820de8a01013a8b
+    projectPath: Library\metadata\fa\fa2321839247eee40820de8a01013a8b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\fa\fa2321839247eee40820de8a01013a8b.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\fa\fa2321839247eee40820de8a01013a8b.info
+    projectPath: Library\metadata\fa\fa2321839247eee40820de8a01013a8b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\fd\fd1a51fc6ad6e1c41bb7aa8ddc6d075d
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\fd\fd1a51fc6ad6e1c41bb7aa8ddc6d075d
+    projectPath: Library\metadata\fd\fd1a51fc6ad6e1c41bb7aa8ddc6d075d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\fd\fd1a51fc6ad6e1c41bb7aa8ddc6d075d.info
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\metadata\fd\fd1a51fc6ad6e1c41bb7aa8ddc6d075d.info
+    projectPath: Library\metadata\fd\fd1a51fc6ad6e1c41bb7aa8ddc6d075d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\PlayerDataCache\Android\Data\globalgamemanagers
+    projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+    projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\level0
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\PlayerDataCache\Android\Data\level0
+    projectPath: Library\PlayerDataCache\Android\Data\level0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\PlayerDataCache\Android\Data\sharedassets0.assets
+    projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+    projectPath: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\75918c-18f74098448dbfd4b8.json
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\StateCache\Hierarchy\75918c-18f74098448dbfd4b8.json
+    projectPath: Library\StateCache\Hierarchy\75918c-18f74098448dbfd4b8.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\Hierarchy\75918c-38c786b3c76bf614da.json
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\StateCache\Hierarchy\75918c-38c786b3c76bf614da.json
+    projectPath: Library\StateCache\Hierarchy\75918c-38c786b3c76bf614da.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\75918c-58194b4a856312545a.json
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\StateCache\Hierarchy\75918c-58194b4a856312545a.json
+    projectPath: Library\StateCache\Hierarchy\75918c-58194b4a856312545a.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\Hierarchy\75918c-94adf86988af38d4f8.json
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\StateCache\Hierarchy\75918c-94adf86988af38d4f8.json
+    projectPath: Library\StateCache\Hierarchy\75918c-94adf86988af38d4f8.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -130,9 +982,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\SceneView\276b85-18f74098448dbfd4b8.json
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\StateCache\SceneView\276b85-18f74098448dbfd4b8.json
+    projectPath: Library\StateCache\SceneView\276b85-18f74098448dbfd4b8.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\SceneView\276b85-58194b4a856312545a.json
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\StateCache\SceneView\276b85-58194b4a856312545a.json
+    projectPath: Library\StateCache\SceneView\276b85-58194b4a856312545a.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\StateCache\SceneView\276b85-mainStage.json
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Library\StateCache\SceneView\276b85-mainStage.json
     projectPath: Library\StateCache\SceneView\276b85-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\build.force
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\build.force
+    projectPath: obj\Debug\build.force
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -142,6 +1036,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\TagManager.asset
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp\__Backupscenes\0.backup
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
@@ -151,6 +1057,342 @@ MonoBehaviour:
   - path: Temp\UnityLockfile
     fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-0556f975e1b7cac488317fcd6b0b9e73
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-0556f975e1b7cac488317fcd6b0b9e73
+    projectPath: Temp\UnityTempFile-0556f975e1b7cac488317fcd6b0b9e73
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-0aeb69fe093215543add5e5e910cfd02
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-0aeb69fe093215543add5e5e910cfd02
+    projectPath: Temp\UnityTempFile-0aeb69fe093215543add5e5e910cfd02
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-0da985d4fb1859c47b0a3a1efa5e55b1
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-0da985d4fb1859c47b0a3a1efa5e55b1
+    projectPath: Temp\UnityTempFile-0da985d4fb1859c47b0a3a1efa5e55b1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-171a0d0bff2d1ee4fa39a55c1a0ac151
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-171a0d0bff2d1ee4fa39a55c1a0ac151
+    projectPath: Temp\UnityTempFile-171a0d0bff2d1ee4fa39a55c1a0ac151
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1a62986892b9b4b4aab73f1e89b7b65d
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-1a62986892b9b4b4aab73f1e89b7b65d
+    projectPath: Temp\UnityTempFile-1a62986892b9b4b4aab73f1e89b7b65d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-21b71752797f48046a27eba0cd54eab9
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-21b71752797f48046a27eba0cd54eab9
+    projectPath: Temp\UnityTempFile-21b71752797f48046a27eba0cd54eab9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-243e8e2fcf53d1a49a252ad59e2cb7aa
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-243e8e2fcf53d1a49a252ad59e2cb7aa
+    projectPath: Temp\UnityTempFile-243e8e2fcf53d1a49a252ad59e2cb7aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-366e33bf2803c3d4ebd1e9f372c28d75
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-366e33bf2803c3d4ebd1e9f372c28d75
+    projectPath: Temp\UnityTempFile-366e33bf2803c3d4ebd1e9f372c28d75
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3983bb0163a5a734ca8cebbef5480dda
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-3983bb0163a5a734ca8cebbef5480dda
+    projectPath: Temp\UnityTempFile-3983bb0163a5a734ca8cebbef5480dda
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3f55da7af21e11e45bb024e64fc21615
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-3f55da7af21e11e45bb024e64fc21615
+    projectPath: Temp\UnityTempFile-3f55da7af21e11e45bb024e64fc21615
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3fd1534df5f85894faab5748e4ffffbf
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-3fd1534df5f85894faab5748e4ffffbf
+    projectPath: Temp\UnityTempFile-3fd1534df5f85894faab5748e4ffffbf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-49724095182ecf041970eac41663d651
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-49724095182ecf041970eac41663d651
+    projectPath: Temp\UnityTempFile-49724095182ecf041970eac41663d651
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4cca0acc19e0ad642afcc574695f2f33
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-4cca0acc19e0ad642afcc574695f2f33
+    projectPath: Temp\UnityTempFile-4cca0acc19e0ad642afcc574695f2f33
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-54aedcf1c473d1a4c8eac6078659aba8
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-54aedcf1c473d1a4c8eac6078659aba8
+    projectPath: Temp\UnityTempFile-54aedcf1c473d1a4c8eac6078659aba8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5730b8842cb896a49af7d3c85832f307
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-5730b8842cb896a49af7d3c85832f307
+    projectPath: Temp\UnityTempFile-5730b8842cb896a49af7d3c85832f307
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-58164813a079dcb458c34909dc265165
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-58164813a079dcb458c34909dc265165
+    projectPath: Temp\UnityTempFile-58164813a079dcb458c34909dc265165
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-591cb9f7bf592254683ebab5ce2e0777
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-591cb9f7bf592254683ebab5ce2e0777
+    projectPath: Temp\UnityTempFile-591cb9f7bf592254683ebab5ce2e0777
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5a5820bfdd47fe448817c719932c6857
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-5a5820bfdd47fe448817c719932c6857
+    projectPath: Temp\UnityTempFile-5a5820bfdd47fe448817c719932c6857
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5c8fb36712ce30644934d07dc4a2ffe8
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-5c8fb36712ce30644934d07dc4a2ffe8
+    projectPath: Temp\UnityTempFile-5c8fb36712ce30644934d07dc4a2ffe8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5d72e188b5829004cab5fb252da3ad64
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-5d72e188b5829004cab5fb252da3ad64
+    projectPath: Temp\UnityTempFile-5d72e188b5829004cab5fb252da3ad64
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5e7fb70167b035a4098af0a0686e8b4c
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-5e7fb70167b035a4098af0a0686e8b4c
+    projectPath: Temp\UnityTempFile-5e7fb70167b035a4098af0a0686e8b4c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5ea86b91907a3e54884132df689f6e61
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-5ea86b91907a3e54884132df689f6e61
+    projectPath: Temp\UnityTempFile-5ea86b91907a3e54884132df689f6e61
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6e17da233279215478e96b50f7cf9e61
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-6e17da233279215478e96b50f7cf9e61
+    projectPath: Temp\UnityTempFile-6e17da233279215478e96b50f7cf9e61
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-71fd120e8ba8230469ecefef80ffa5e1
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-71fd120e8ba8230469ecefef80ffa5e1
+    projectPath: Temp\UnityTempFile-71fd120e8ba8230469ecefef80ffa5e1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-72cd0bc47ac4e8e4db609c457914ab8a
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-72cd0bc47ac4e8e4db609c457914ab8a
+    projectPath: Temp\UnityTempFile-72cd0bc47ac4e8e4db609c457914ab8a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7513d0066c27b804fba0ea1c3251a2d1
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-7513d0066c27b804fba0ea1c3251a2d1
+    projectPath: Temp\UnityTempFile-7513d0066c27b804fba0ea1c3251a2d1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-760b57492ae8f1644a52ef31214ef2f7
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-760b57492ae8f1644a52ef31214ef2f7
+    projectPath: Temp\UnityTempFile-760b57492ae8f1644a52ef31214ef2f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7b1280286af716340b3aa17c602a073e
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-7b1280286af716340b3aa17c602a073e
+    projectPath: Temp\UnityTempFile-7b1280286af716340b3aa17c602a073e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7ebb43cab3033d444a5ad0c598c35d6e
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-7ebb43cab3033d444a5ad0c598c35d6e
+    projectPath: Temp\UnityTempFile-7ebb43cab3033d444a5ad0c598c35d6e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7ffc15415b649374b8abef37ae29875a
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-7ffc15415b649374b8abef37ae29875a
+    projectPath: Temp\UnityTempFile-7ffc15415b649374b8abef37ae29875a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-81878297f44ddd241a0fd0e6b9327e5b
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-81878297f44ddd241a0fd0e6b9327e5b
+    projectPath: Temp\UnityTempFile-81878297f44ddd241a0fd0e6b9327e5b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8de097fda1d1c0c4ba988814b2f8d084
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-8de097fda1d1c0c4ba988814b2f8d084
+    projectPath: Temp\UnityTempFile-8de097fda1d1c0c4ba988814b2f8d084
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-97e785b558ffdd9499e8b14c91fed4d3
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-97e785b558ffdd9499e8b14c91fed4d3
+    projectPath: Temp\UnityTempFile-97e785b558ffdd9499e8b14c91fed4d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-aabde83f0ab3c3141bc605661d189fa0
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-aabde83f0ab3c3141bc605661d189fa0
+    projectPath: Temp\UnityTempFile-aabde83f0ab3c3141bc605661d189fa0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b268008abc8f2fa44ad1c35efe4f5de6
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-b268008abc8f2fa44ad1c35efe4f5de6
+    projectPath: Temp\UnityTempFile-b268008abc8f2fa44ad1c35efe4f5de6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b44f72acaf45dcb4bb3dfb42b73ecbda
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-b44f72acaf45dcb4bb3dfb42b73ecbda
+    projectPath: Temp\UnityTempFile-b44f72acaf45dcb4bb3dfb42b73ecbda
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bc48d7e6fa3cd724d8010df7a2c44e5d
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-bc48d7e6fa3cd724d8010df7a2c44e5d
+    projectPath: Temp\UnityTempFile-bc48d7e6fa3cd724d8010df7a2c44e5d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c4e47c3181f7d4b448ef37ced6e7f61a
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-c4e47c3181f7d4b448ef37ced6e7f61a
+    projectPath: Temp\UnityTempFile-c4e47c3181f7d4b448ef37ced6e7f61a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c530f60b7e240cc47881a69eaba54015
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-c530f60b7e240cc47881a69eaba54015
+    projectPath: Temp\UnityTempFile-c530f60b7e240cc47881a69eaba54015
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c65f83b90a0b20d49b100559bd7a9fb4
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-c65f83b90a0b20d49b100559bd7a9fb4
+    projectPath: Temp\UnityTempFile-c65f83b90a0b20d49b100559bd7a9fb4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cfb0b8fec34e8724087e0cd4f7105110
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-cfb0b8fec34e8724087e0cd4f7105110
+    projectPath: Temp\UnityTempFile-cfb0b8fec34e8724087e0cd4f7105110
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d25b71404eb3e474caaeee9e2dd6dd54
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-d25b71404eb3e474caaeee9e2dd6dd54
+    projectPath: Temp\UnityTempFile-d25b71404eb3e474caaeee9e2dd6dd54
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d63e3212ed296ec469e5bf1f1b16df18
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-d63e3212ed296ec469e5bf1f1b16df18
+    projectPath: Temp\UnityTempFile-d63e3212ed296ec469e5bf1f1b16df18
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-db69c5cd97ec18349b79c62e2f9ef317
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-db69c5cd97ec18349b79c62e2f9ef317
+    projectPath: Temp\UnityTempFile-db69c5cd97ec18349b79c62e2f9ef317
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-df96caf558d5daa459f744d88484cebf
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-df96caf558d5daa459f744d88484cebf
+    projectPath: Temp\UnityTempFile-df96caf558d5daa459f744d88484cebf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e0b49a5ffd3ef4042bd4e7ef542c9421
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-e0b49a5ffd3ef4042bd4e7ef542c9421
+    projectPath: Temp\UnityTempFile-e0b49a5ffd3ef4042bd4e7ef542c9421
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e38c45654ff76d24ab08427fbe0f2aa2
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-e38c45654ff76d24ab08427fbe0f2aa2
+    projectPath: Temp\UnityTempFile-e38c45654ff76d24ab08427fbe0f2aa2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e54e42b4831080d469a3bc84f569ae69
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-e54e42b4831080d469a3bc84f569ae69
+    projectPath: Temp\UnityTempFile-e54e42b4831080d469a3bc84f569ae69
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e54f8ce1611ee3e4ca17274e52d15522
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-e54f8ce1611ee3e4ca17274e52d15522
+    projectPath: Temp\UnityTempFile-e54f8ce1611ee3e4ca17274e52d15522
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e9a6f6a26fcbdac478e0b663809b6b35
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-e9a6f6a26fcbdac478e0b663809b6b35
+    projectPath: Temp\UnityTempFile-e9a6f6a26fcbdac478e0b663809b6b35
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ea00a9ac1f2c21b43a5dc1a22ed74d77
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-ea00a9ac1f2c21b43a5dc1a22ed74d77
+    projectPath: Temp\UnityTempFile-ea00a9ac1f2c21b43a5dc1a22ed74d77
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f064f9bb16c31a243b75982a2f8650e7
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-f064f9bb16c31a243b75982a2f8650e7
+    projectPath: Temp\UnityTempFile-f064f9bb16c31a243b75982a2f8650e7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f18adfc848dad3c4aab0f103416b87d8
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-f18adfc848dad3c4aab0f103416b87d8
+    projectPath: Temp\UnityTempFile-f18adfc848dad3c4aab0f103416b87d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f1db5600b952b354fb2f1bc043214704
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-f1db5600b952b354fb2f1bc043214704
+    projectPath: Temp\UnityTempFile-f1db5600b952b354fb2f1bc043214704
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f2e12ef83dfcfde49a4b40706ccefe47
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-f2e12ef83dfcfde49a4b40706ccefe47
+    projectPath: Temp\UnityTempFile-f2e12ef83dfcfde49a4b40706ccefe47
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fe2bee707a661674886835741a55beaa
+    fullPath: C:\UnityProjectsGit\Piece-Of-Cake\Temp\UnityTempFile-fe2bee707a661674886835741a55beaa
+    projectPath: Temp\UnityTempFile-fe2bee707a661674886835741a55beaa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

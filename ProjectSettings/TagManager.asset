@@ -12,6 +12,8 @@ TagManager:
   - UI Manager
   - Game Manager
   - Rotation Manager
+  - FxTemporaire
+  - UI Controller
   layers:
   - Default
   - TransparentFX
