@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\Saving\SavingSystem.cs" />
     <Compile Include="Assets\Scripts\Stats\Progression.cs" />
     <Compile Include="Assets\Scripts\Stats\Stats.cs" />
+    <Compile Include="Assets\Scripts\UI\Fader.cs" />
     <Compile Include="Assets\Scripts\UI\Paths\HoverPath.cs" />
     <Compile Include="Assets\Scripts\UI\Paths\Path.cs" />
     <Compile Include="Assets\Scripts\UI\Paths\PathSpawner.cs" />

@@ -8,9 +8,10 @@ public class UIController : MonoBehaviour
     [SerializeField] Text scoreText;
     [SerializeField] Text timeText;
     [SerializeField] Progression progression;
+    [SerializeField] int currentLevel;
 
     ShakeBehavior shake;
-    int currentLevel;
+  
     GameMode gameMode;
 
     int score = 0;
@@ -115,17 +116,17 @@ public class UIController : MonoBehaviour
     private void CalculateStars()
     {
 
-        if (score < progression.GetScore(Stat.ScoreFor2Star, currentLevel))
+        if (score < progression.GetScore(currentLevel, Stat.ScoreFor2Star))
         {
             print("you get 1 star");
         }
 
-        else if (score >= progression.GetScore(Stat.ScoreFor2Star, currentLevel) && score < progression.GetScore(Stat.ScoreFor3Star, currentLevel))
+        else if (score >= progression.GetScore(currentLevel,Stat.ScoreFor2Star) && score < progression.GetScore(currentLevel,Stat.ScoreFor3Star))
         {
             print("you get 2 starts");
         }
 
-        else if (score >= progression.GetScore(Stat.ScoreFor3Star, currentLevel))
+        else if (score >= progression.GetScore(currentLevel,Stat.ScoreFor3Star))
         {
             print("you get 3 stars!");
         }

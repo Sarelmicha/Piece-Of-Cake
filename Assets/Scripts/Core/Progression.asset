@@ -21,11 +21,3 @@ MonoBehaviour:
       score: 2000
     - stat: 2
       score: 5000
-  - level: 2
-    stats:
-    - stat: 0
-      score: 1000
-    - stat: 1
-      score: 2000
-    - stat: 2
-      score: 5000

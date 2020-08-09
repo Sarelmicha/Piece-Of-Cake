@@ -1,8 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+
+    [SerializeField] Fader fader;
+    [SerializeField] float fadeTime = 0.1f;
 
     int currentSceneIndex = 0;
     int currentLevel;
@@ -25,23 +29,38 @@ public class GameManager : MonoBehaviour
         currentLevel = 1;
     }
 
-    public void RestartScene()
-    {
-        SceneManager.LoadScene(currentSceneIndex);
-    }
-
-    public void LoadMainMenu()
-    {
-        SceneManager.LoadScene("Start Screen");
-    }
-
     public void LoadNextScene()
     {
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        StartCoroutine(LoadNextSceneCoroutine());
     }
-    public void LoadSpecificScene(int specificSceneIndex)
+
+
+    private IEnumerator LoadMainMenu()
     {
+        yield return fader.FadeOut(fadeTime);
+        SceneManager.LoadScene("Start Screen");
+        yield return fader.FadeIn(fadeTime);
+    }
+
+
+    public IEnumerator RestartScene()
+    {
+        yield return fader.FadeOut(fadeTime);
+        SceneManager.LoadScene(currentSceneIndex);
+        yield return fader.FadeIn(fadeTime);
+    }
+    private IEnumerator LoadNextSceneCoroutine()
+    {
+    
+        yield return fader.FadeOut(fadeTime);
+        SceneManager.LoadScene(currentSceneIndex + 1);
+        yield return  fader.FadeIn(fadeTime);
+    }
+    private IEnumerator LoadSpecificScene(int specificSceneIndex)
+    {
+        yield return fader.FadeOut(fadeTime);
         SceneManager.LoadScene(specificSceneIndex);
+        yield return fader.FadeIn(fadeTime);
     }
 
 
@@ -49,9 +68,4 @@ public class GameManager : MonoBehaviour
     {
         Application.Quit();
     }
-
-
-
-
-
 }

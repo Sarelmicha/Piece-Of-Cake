@@ -9,7 +9,7 @@ public class Progression : ScriptableObject
 
     Dictionary<int, Dictionary<Stat, float>> lookupTable = null;
 
-    public float GetScore(Stat stat, int level)
+    public float GetScore(int level, Stat stat)
     {
         BuildLookup();
 
